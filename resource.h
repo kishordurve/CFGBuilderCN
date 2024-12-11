@@ -1355,7 +1355,8 @@
 #define IDS_WARNING_JOB_CANNOT_SAVE     1408
 #define IDS_SHOW_CROSSHAIR              1408
 #define IDS_HIDE_CROSSHAIR              1409
-#define IDS_HIDE_DUMMY					1410
+#define IDS_HIDE_DUMMY1                 1410
+#define IDS_DUMMY1                      1410
 
 // Next default values for new objects
 // 

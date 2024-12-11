@@ -35,7 +35,7 @@ FASTSCANNMEASURECN_API int fnFastScanNMeasureCN(void)
 // see FastScanNMeasureCN.h for the class definition
 //
 CFastScanNMeasureCN::CFastScanNMeasureCN()
-{ 
+{
 	return; 
 }
 

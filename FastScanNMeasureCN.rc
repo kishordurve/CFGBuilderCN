@@ -1629,6 +1629,7 @@ STRINGTABLE
 BEGIN
     IDS_SHOW_CROSSHAIR      "显示 十字准线"
     IDS_HIDE_CROSSHAIR      "隐藏十字线"
+    IDS_DUMMY1              "Dummy1"
 END
 
 #endif    // Chinese (Simplified, PRC) resources

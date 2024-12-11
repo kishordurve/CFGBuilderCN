@@ -14,7 +14,7 @@
 // This class is exported from the FastScanNMeasureCN.dll
 class FASTSCANNMEASURECN_API CFastScanNMeasureCN {
 public:
-	CFastScanNMeasureCN(void);
+	CFastScanNMeasureCN(void); 
 	// TODO: add your methods here.
 };
 
