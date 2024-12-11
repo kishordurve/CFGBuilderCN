@@ -1,0 +1,1 @@
+Build in Release. CFGBuilderCN.dll gets created in x64\Release folder

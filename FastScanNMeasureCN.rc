@@ -1,0 +1,1648 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_MEASPOINTTOPOINT    "坐标"
+    IDS_MEASPOINTTOLINE     "坐标"
+    IDS_GRIDMEASTITLECOL1   "测量"
+    IDS_GRIDMEASTITLECOL2   "描述"
+    IDS_GRIDMEASTITLECOL3   "值"
+    IDS_GRIDMEASTITLECOL4   "公差"
+    IDS_MEASDEV             "偏差"
+    IDS_MSGCAMNOTCON        "相机未连接"
+    IDS_MSGUWCNA            "UWC 控制器未初始化"
+    IDS_MEASLINETOLINEANGLE "测量两条线的夹角"
+    IDS_MEASLINETOLINEDIST  "线与线距离 (平行线间的间隙)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MEASCIRCLE          "参数圆"
+    IDS_MEASCIRCLEDIA       "圆直径"
+    IDS_MEASCIRCLERNDERROR  "圆度误差"
+    IDS_MEASDISTBET2OBJ     "选择网格中的两个对象并找出两对象间距离"
+    IDS_SAVEMODFILE         "保存修改过的文件?"
+    IDS_MEASLINETOCIRCLE    "线圆距离"
+    IDS_MEASSLOTTOSLOT      "键槽间距离"
+    IDS_MEASPOINTTOCIRCLE   "点圆距离"
+    IDS_MEASPOINTTOSLOT     "点槽距离"
+    IDS_SEL_CLKD_POINT      "在影像区所需位置点击以选取点"
+    IDS_SEL_CORNER_POINT    "选择单击点附近的角点"
+    IDS_SEL_LINE_INT_POINT  "选择两条线的交点"
+    IDS_SEL_LINE_MIDPOINT   "选择线中点"
+    IDS_SEL_EDGE_LINE       "选择边缘线. 单击直线上的第一个点，然后单击第二个点. 按住左键同时拖动鼠标调整矩形."
+    IDS_SEL_CONSTR_LINE     "构造过两条平行线段中点的线 。"
+    IDS_SEL_EDGE_CIRCLE     "从边缘选择圆，点击圆外围两点，调整红色 圆圈以匹配所需要的圆，双击以改变轨迹方 向。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "FastScanNMeasure\n\nFastScanNMeasur\nFastScanNMeasure Files (*.LT)\n.cfg\nFastScanNMeasure.Document\nFastScanNMeasure.Document"
+    IDS_SEL_SLOT            "选择槽 -围绕槽画框. 在矩形中双击以改为相反扫描方向. 右键点击接受"
+    IDS_SEL_ARC_EDGE        "从边缘选择弧线"
+    IDS_SEL_ELLIPSE_EDGE    "在椭圆边上绘制3个弧，单击鼠标滚动以设置单个弧。右键单击以绘制椭圆"
+    IDS_SEL_RECT_EDGE       "选择矩形围绕矩形画框在矩形中双击以改为相反扫描方向右键点击接受"
+    IDS_SEL_LINE_AUTO_DETECT "在鼠标箭头附近自动选择线"
+    IDS_SEL_CLKD_POLYGON    "按顺序选择多边形角上的点"
+    IDS_ZOOM_LEVEL          "缩放"
+    IDS_READY               "已准备好"
+    IDS_LINE_DONE           "添加线"
+    IDS_CIRCLE_DONE         "添加圆"
+    IDS_ELLIPSE_DONE        "添加椭圆"
+    IDS_SLOT_DONE           "添加键槽"
+    IDS_RECT_DONE           "添加矩形"
+    IDS_POLY_DONE           "添加多边形"
+    IDS_ARC_DONE            "添加圆弧"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MEASRECT            "参数矩形"
+    IDS_MEASPOINTPOS        "位置点"
+    IDS_MEASLINEPARAMS      "参数线"
+    IDS_MEASPOLY_AREA       "面多边形"
+    IDS_CIRCLE_FAIL         "圆匹配失败"
+    IDS_SLOT_FAIL           "键槽匹配失败"
+    IDS_RECT_FAIL           "矩形匹配失败"
+    IDS_SHAPE_DELETED       "形状已删除"
+    IDS_SET_WORK_ZEROX      "先后选择两点得到一条线作为X轴，点击右键确定。"
+    IDS_SET_WORK_ZEROY      "先后选择两点得到一条线作为Y轴，点击右键确定。"
+    IDS_SHIFT_WORK_ZEROXY   "选择该形状的一个特征点。将光标移动到该特征点并点击右键。"
+    IDS_SHIFT_WORK_ZERO_ANGLE "移动工作零角度"
+    IDS_SET_FOCUS           "设置焦点系统将在多个Z级别对当前作业进行图像处理，并自动选择正确的高度"
+    IDS_LABEL_HORZ_DIST     "水平距离标注。单击两点以显示标注，右键确定。"
+    IDS_LABEL_VERT_DIST     "垂直距离标注。单击两点以显示标注，右键确定。"
+    IDS_LABEL_DIST_LINEAR   "水平距离标注。单击两点以显示标注，右键确定。"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LABEL_BASELINE      "标注基线"
+    IDS_LABEL_RAD           "标注半径"
+    IDS_LABEL_DIA           "标注直径"
+    IDS_LABEL_XY_COORDS     "标注XY坐标"
+    IDS_LABEL_TEXT          "标注文本"
+    IDS_LABEL_EDIT          "标注编辑标注位置"
+    IDS_SEL_CONSTR_POINT    "从两个对象中选择点-两点之间的中点、点到线的垂直交点、线线交点、线圆交点、圆圆交点"
+    IDS_MEASPOINTTORECT     "点到矩形距离"
+    IDS_MEASPOINTTOPOLY     "点到多边形距离"
+    IDS_MEASLINETORECT      "线到矩形距离"
+    IDS_MEASLINETOSLOT      "线到槽距离"
+    IDS_MEASLINETOPOLY      "线到多边形距离"
+    IDS_MEASPOLYTOPOLY      "多边形到多边形距离"
+    IDS_MSG_SHAPE_SEL_CANCEL "形状选择已取消"
+    IDS_SET_WORK_PATTERN    "将矩形放在原点并移动它，使其包含几个不同的形状"
+    IDS_SHIFT_WORK_ZERO_DONE "原点移动"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SET_AXES_DONE       "XY轴设置"
+    IDS_MEASCIRCLETOCIRCLE  "圆圈距离"
+    IDS_MEASLINETOCIRCLEFAR "线圈远距"
+    IDS_MEASLINETOCIRCLENEAR "线圈近距离"
+    IDS_MEASLINETOARCFAR    "线弧远距"
+    IDS_MEASLINETOARCNEAR   "线弧近距离"
+    IDS_MEASCIRCLETOARCCTR  "圆弧中心距离"
+    IDS_MEASARCTOARCCTR     "弧形中心距离"
+    IDS_MEASLINETOARCCTR    "线弧中心距离"
+    IDS_GRIDMEASTITLECOL6   "误差"
+    IDS_WINDOW_CAD_ALIGNED  "旋转CAD窗口"
+    IDS_LINE_CUT            "切割线"
+    IDS_LINE_EXTEND         "延伸线"
+    IDS_SEL_LINE_EXTEND     "选择限制线,然后行扩展到它"
+    IDS_SEL_LINE_CUT        "选择限制线,然后线进行切割"
+    IDS_ARC_FAIL            "弧形匹配失败"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VALID_POINTS_MSG    "找不到要绘制的有效点！"
+    IDS_BAR_CHART           "条形图"
+    IDS_MEAS_VALUES         "测量值"
+    IDS_PARAMATER           "参数"
+    IDS_VALUE               "价值"
+    IDS_UP_LIMIT            "上限"
+    IDS_DOWN_LIMIT          "下限"
+    IDS_OVERSTEP_NUMBER     "越步编号"
+    IDS_OVERSTEP_UPPER_LIMIT "越步上限"
+    IDS_OVERSTEP_LOWER_LIMIT "越步下限"
+    IDS_MN_FILE             "文件"
+    IDS_MN_EDIT             "编辑"
+    IDS_BIN_POPULATION      "垃圾箱人口"
+    IDS_MN_IMAGE            "图像"
+    IDS_MN_GEOMETRY         "几何图形"
+    IDS_MN_TOLERANCE        "公差"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MN_LABEL            "标记"
+    IDS_MN_COORDINATES      "坐标"
+    IDS_MN_INSPECTION       "检查"
+    IDS_MN_WINDOW           "窗口"
+    IDS_MN_SETTINGS         "设置"
+    IDS_MN_LANGUAGE         "语言"
+    IDS_MN_HELP             "帮助"
+    IDS_MN_FILE_NEW         "新建"
+    IDS_MN_FILE_OPEN        "打开"
+    IDS_MN_FILE_SAVE        "保存"
+    IDS_MN_FILE_SAVEAS      "另存为"
+    IDS_MN_FILE_LOADDXFFILE "载入DXF文件"
+    IDS_DLG_MEAS_L2LDIST    "线对线测量"
+    IDS_MN_LOAD_FILE_DXF_OPTIONS "DXF载入选择"
+    IDS_MN_FILE_MATCH_DXF_COORDINATES "匹配DXF坐标"
+    IDS_DLG_MEAS_LINEAR_DIST "线性距离"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MN_FILE_REPORT      "报告"
+    IDS_MN_FILE_EXIT        "退出"
+    IDS_MN_FILE_REPORT_MS_WORD "输出MS WORD"
+    IDS_MN_FILE_REPORT_MS_EXCEL "输出MS EXCEL"
+    IDS_MN_FILE_REPORT_PDF  "输出 PDF"
+    IDS_MN_EDIT_UNDO        "撤销"
+    IDS_MN_EDIT_CUT         "剪切"
+    IDS_MN_EDIT_COPY        "拷贝"
+    IDS_MN_EDIT_PASTE       "粘贴"
+    IDS_MN_FILE_RECENT_FILE "最近文件"
+    IDS_DLG_MEAS_ANGLE_BET_LINES "线之间的角度"
+    IDS_MN_EDIT_DELETE_SELECTED "删除所选"
+    IDS_MN_EDIT_CUT_LINE    "切割线"
+    IDS_MN_EDIT_EXTEND_LINE "延长线"
+    IDS_MN_EDIT_DRAW_PARALLEL_LINE "画平行线"
+    IDS_MN_EDIT_DRAW_VERTICAL_LINE "画垂直线"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MN_EDIT_DRAW_CONCENTRIC_CIRCLE "画同心圆"
+    IDS_MN_EDIT_DRAW_HORIZ_LINE "画水平线"
+    IDS_DLG_CALIB_3POINT    "三点校准"
+    IDS_DLG_CALIB_CALCULATE "计算"
+    IDS_MN_IMAGE_CAPTURE_IMAGE "抓取图像"
+    IDS_MN_IMAGE_LIVE_STREAM "实时流"
+    IDS_MN_IMAGE_FREEZE_STREAM "冻结流"
+    IDS_MN_IMAGE_ZOOM_IN    "放大"
+    IDS_MN_IMAGE_ZOOM_OUT   "缩小"
+    IDS_MN_IMAGE_ZOOM_TO_FIT "拉伸以匹配"
+    IDS_MN_IMAGE_IMAGE_LOAD "载入图像"
+    IDS_MN_IMAGE_SAVE_IMAGE "保存图像"
+    IDS_MN_GEOMETRY_POINT   "点"
+    IDS_MN_GEOMETRY_LINE    "线"
+    IDS_MN_GEOMETRY_ARC     "弧"
+    IDS_MN_GEOMETRY_CIRCLE  "圆"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MN_GEOMETRY_ELLIPSE "椭圆"
+    IDS_MN_GEOMETRY_SLOT    "槽"
+    IDS_MN_GEOMETRY_RECTANGLE "矩形"
+    IDS_MN_GEOMETRY_POLYGON "多边形"
+    IDS_MN_GEOMETRY_SPLINE  "花键"
+    IDS_MN_TOLERANCE_PARALLELISM "平行度"
+    IDS_MN_TOLERANCE_VERTICALITY "垂直度"
+    IDS_MN_TOLERANCE_ANGULARITY "曲线度"
+    IDS_MN_TOLERANCE_POSITION "位置度"
+    IDS_MN_TOLERANCE_CONCENTRICITY "同心度"
+    IDS_MN_TOLERANCE_SYMMETRY "相似度"
+    IDS_MN_TOLERANCE_PROFILE "轮廓度"
+    IDS_MN_LABEL_HORIZONTAL "水平标注"
+    IDS_MN_LABEL_VERTICAL   "垂直标注"
+    IDS_MN_LABEL_LINEAR     "线性标注"
+    IDS_MN_LABEL_BASELINE   "基线标注"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MN_LABEL_RADIUS     "半径标注"
+    IDS_MN_LABEL_DIAMETER   "直径标注"
+    IDS_MN_LABEL_XY_COORD   "XY坐标标注"
+    IDS_MN_LABEL_TEXT       "文本标注"
+    IDS_MN_LABEL_EDIT       "编辑标注"
+    IDS_MN_COORD_TRANSLATE_ORIGIN "平移原点"
+    IDS_MN_COORD_FORM_X_AXIS "建立X轴"
+    IDS_MN_COORD_FORM_Y_AXIS "建立Y轴"
+    IDS_MN_COORD_TRANSLATE_AND_ROTATE_AXES "平移和旋转坐标轴"
+    IDS_MN_INSP_TEST_IMAGE  "测试图像"
+    IDS_DLG_MEAS_L2CDIST    "线到圆测量"
+    IDS_MN_INSP_EDIT_TEMPLATE "编辑模板"
+    IDS_MN_INSP_LOAD_MODEL  "载入模型"
+    IDS_MN_SETTINGS_MOTION_MANAGER "移动管理"
+    IDS_MN_SETTINGS_JOB_CONFIGURATION "工件设置"
+    IDS_MN_SETTINGS_JOB_MANAGEMENT "工件管理"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MN_SETTINGS_CAMERA_TYPE "相机型号"
+    IDS_MN_SETTINGS_JOB_GRID "工件网格"
+    IDS_MN_SETTINGS_LIGHT_CONTROLS "灯光控制"
+    IDS_MN_SETTINGS_INSPECTION_PARAMETERS "检查参数"
+    IDS_MN_SETTINGS_CALIBRATION "校准"
+    IDS_MN_LANG_CHINESE     "中文"
+    IDS_MN_ABOUT            "关于"
+    IDS_MN_FILE_REPORT_TEXT_FILE "TEXT"
+    IDS_MN_FILE_REPORT_MS_ACCESS "MS ACCESS"
+    IDS_MN_FILE_REPORT_DXF  "DXF"
+    IDS_MN_FILE_REPORT_IGES "IGES"
+    IDS_MN_SETTINGS_CALIB_CAMERA "相机校准"
+    IDS_MN_SETTINGS_CALIB_NLC "非线性补偿"
+    IDS_MN_SETTINGS_CALIB_AUTOXY "XY自动校准"
+    IDS_MN_SETTINGS_CALIB_THREEPOINT "三点图像校准"
+    IDS_MN_SETTINGS_CALIB_FFC "平场校准"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MN_WINDOW_CAD       "CAD"
+    IDS_MN_WINDOW_VIDEO     "视频"
+    IDS_MN_SETTINGS_CAMERA  "相机"
+    IDS_MN_SETTINGS_MOTION  "移动"
+    IDS_MN_SETTINGS_JOB     "工件"
+    IDS_MN_LANG_ENGLISH     "英语"
+    IDS_MN_HELP_ABOUT       "关于快速扫描测量"
+    IDS_HIGH                "高"
+    IDS_LOW                 "低"
+    IDS_OK                  "确定"
+    IDS_CANCEL              "取消"
+    IDS_SELECT              "选择"
+    IDS_DELETE              "删除"
+    IDS_START               "开始"
+    IDS_STOP                "停止"
+    IDS_BACK                "返回"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CLOSE               "关闭"
+    IDS_DLG_EDP             "寻边参数"
+    IDS_DLG_EDP_MANUAL_OVERRIDE "手工控制"
+    IDS_DLG_EDP_FORCE_LINE_ORIENTATION "强制改变线方向"
+    IDS_DLG_MEASUREMENTS    "测量值"
+    IDS_DLG_MEAS_NOMINAL    "标称值"
+    IDS_DLG_MEAS_TOL_UP     "公差上面"
+    IDS_DLG_MEAS_TOL_LOW    "公差下限"
+    IDS_DLG_MEAS_XDIST      "X-距离"
+    IDS_DLG_MEAS_YDIST      "Y-距离"
+    IDS_DLG_MEAS_CNTRDIST   "中心距离"
+    IDS_DLG_MEAS_A2ADIST    "弧到弧距离测量"
+    IDS_DLG_MEAS_C2CDIST    "圆到圆测量"
+    IDS_DLG_MEAS_C2ADIST    "圆到弧测量"
+    IDS_DLG_MEAS_L2ADIST    "线到弧测量"
+    IDS_DLG_MEAS_NEARDIST   "近处距离"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_MEAS_FARDIST    "远处距离"
+    IDS_DLG_MEAS_CENTER     "中心"
+    IDS_DLG_MEAS_RAD        "半径"
+    IDS_DLG_MEAS_DIA        "直径"
+    IDS_DLG_MEAS_PROF_ERR   "齿形误差"
+    IDS_DLG_MEAS_MIN_RAD    "最小半径"
+    IDS_DLG_MEAS_MAX_RAD    "最大半径"
+    IDS_DLG_MEAS_ROUNDNESS  "圆度"
+    IDS_DLG_MEAS_PERIMETER  "周长"
+    IDS_DLG_MEAS_AREA       "面积"
+    IDS_DLG_MEAS_LINE       "线测量"
+    IDS_DLG_MEAS_CIRCLE     "圆测量"
+    IDS_DLG_JOB_ENTERNAME   "输入工件名称"
+    IDS_DLG_JOB_ADD         "加工件"
+    IDS_DLG_JOB_DELETE      "删除工件"
+    IDS_DLG_JOB_CHANGE      "改变工件"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_JOB_SELECT      "选择一个工件"
+    IDS_DLG_JOB_ADD_NEW     "增加新工件"
+    IDS_DLG_JOBGRID         "工件网格"
+    IDS_DLG_JOBGRID_FIXED   "固定网格"
+    IDS_DLG_JOBGRID_RANDOM  "随意放置"
+    IDS_DLG_JOBGRID_NO_OF_JOBS "工件数量"
+    IDS_DLG_JOBGRID_NO_OF_ROWS "行数"
+    IDS_DLG_JOBGRID_NO_OF_COLS "列数"
+    IDS_DLG_JOBGRID_X_PITCH "X最高点（毫米）"
+    IDS_DLG_JOBGRID_Y_PITCH "Y最高点（毫米）"
+    IDS_DLG_JOBGRID_LAYOUT  "工件布局"
+    IDS_DLG_CAM_EXP         "相机曝光"
+    IDS_DLG_CAM_EXP_TIME    "相机曝光时间"
+    IDS_DLG_CAM_ACQ_LINE_RATE "相机曝光时间"
+    IDS_DLG_CAM_SENSOR_SCAN_DIR "传感器扫描方向"
+    IDS_DLG_CAM_MAN_DIR_CHNG "手动改变方向"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_CAM_FORWARD     "前进"
+    IDS_DLG_CAM_REVERSE     "后退"
+    IDS_DLG_CAM_TDI_ROWS    "TDI 行"
+    IDS_DLG_CAM_AOI_OFFSET  "利息偏移面积"
+    IDS_DLG_CAM_AOI_WIDTH   "感兴趣区域 宽度"
+    IDS_DLG_CAM_COMP_COND   "复合调节"
+    IDS_DLG_CAM_PARAM_SETT  "相机参数设置"
+    IDS_DLG_CAM_DARK_CORR   "暗校正"
+    IDS_DLG_CAM_WHITE_CORR  "白校正"
+    IDS_DLG_CAM_GAMMA_CORR  "伽马校正"
+    IDS_DLG_LED_CONTROL     "LED控制"
+    IDS_DLG_LED_DUTY_CYCLE  "LED占空比"
+    IDS_DLG_JOB_LENGTH      "工件长度"
+    IDS_DLG_JOB_WIDTH       "工件宽度"
+    IDS_DLG_XAXIS_START_LOC "X轴起点"
+    IDS_DLG_YAXIS_START_LOC "Y轴起点"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_ZAXIS_START_LOC "Z轴起点"
+    IDS_DLG_GRAB_AXIS       "抓取轴"
+    IDS_DLG_MOVE_SPEED      "移动速度"
+    IDS_DLG_HOME_SPEED      "归零速度"
+    IDS_DLG_JOG_SPEED       "点动速度"
+    IDS_DLG_JOYSTICK_SPEED  "摇杆速度"
+    IDS_DLG_XAXIS           "X轴"
+    IDS_DLG_YAXIS           "Y轴"
+    IDS_DLG_ZAXIS           "Z轴"
+    IDS_DLG_UAXIS           "U轴"
+    IDS_DLG_HOME            "回零"
+    IDS_DLG_JOB_LOC         "工件定位"
+    IDS_DLG_SET_LABEL       "设置标注"
+    IDS_DLG_USER            "用户"
+    IDS_DLG_USER_LOGIN      "用户登录"
+    IDS_DLG_USER_LEVEL      "用户级别"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_USER_NAME       "用户名"
+    IDS_DLG_USER_PASSWORD   "密码"
+    IDS_DLG_USER_ADD        "增加新用户"
+    IDS_DLG_CALIB_MASTER_PARAMS "标定件参数"
+    IDS_DLG_CALIB_CHESS_BOARD "棋盘"
+    IDS_DLG_CALIB_SYM_CIRCLES "对称圆"
+    IDS_DLG_CALIB_ASSYM_CIRCLES "不对称圆"
+    IDS_DLG_CALIB_ROWS_OF_SQ_CIR "正方形/圆的行数"
+    IDS_DLG_CALIB_COLS_OF_SQ_CIR "正方形/圆的列数"
+    IDS_DLG_CALIB_SQ_CIR_SIZE "正方形/圆的尺寸/直径"
+    IDS_DLG_CALIB_DIST_SQ_CIR "毗邻正方形/圆的距离"
+    IDS_DLG_CALIB_MASTER_CIR_DIA "主圆的直径"
+    IDS_DLG_CALIB_DIST_2_CIR "两圆间的距离"
+    IDS_DLG_CALIB_ENABLE_COMP "启用补偿"
+    IDS_DLG_CALIB_LOAD_COMP "装载补偿文件"
+    IDS_DLG_CALIB_SAVE_COMP "保存补偿文件"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_CALIB_ENABLE_CORR "启用校正"
+    IDS_DLG_CALIB_HW_CORR   "硬件校正"
+    IDS_DLG_CALIB_PIXEL_REPLACE "像素替换"
+    IDS_DLG_CALIB_LOAD      "载入"
+    IDS_DLG_CALIB_CORR_TYPE "校正类型"
+    IDS_DLG_CALIB_VIDEO_TYPE "影像类型"
+    IDS_DLG_CALIB_MAX_BLCK  "校正后深色图像中黑色(0 值)像素的最大百分比"
+    IDS_DLG_CALIB_AVG_LINES "平均行数"
+    IDS_DLG_CALIB_AVG_FRAMES "平均列数"
+    IDS_DLG_CALIB_VER_OFFSET "从顶部垂直偏移"
+    IDS_DLG_CALIB_DEV_DARK_PXL "与平均暗像素值的最大偏差"
+    IDS_DLG_CALIB_DEV_BRIGHT_PXL "与平均亮像素值的最大偏差"
+    IDS_DLG_CALIB_NO_CLUSTER_MAP "未定义群集映射"
+    IDS_DLG_CALIB_LOAD_CLUSTER_MAP "加载群集映射"
+    IDS_DLG_CALIB_INDEX     "校准指数"
+    IDS_DLG_CALIB_CONSIDER  "将偏移或增益系数达到硬件限制的像素视为有缺陷的像素"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_CALIB_STEP1     "步骤1：获取暗图像"
+    IDS_DLG_CALIB_STEP2     "步骤2：取得一幅非饱和亮图像"
+    IDS_DLG_CALIB_STEP3     "步骤3：保存校准偏移和增益文件（可选）"
+    IDS_DLG_CALIB_ACQ_DARK_IMG "取得暗图像"
+    IDS_DLG_CALIB_ACQ_BRIGHT_IMG "取得亮图像"
+    IDS_DLG_CALIB_SAVE_UPLOAD "保存和上传"
+    IDS_DLG_CALIB_USER_FFC_DEST "到用户平面字段目标"
+    IDS_DLG_ABOUT_VER       "闪龙快测 1.0"
+    IDS_DLG_ABOUT_COPYRIGHT "版权所有 (C) 2018"
+    IDS_DLG_CAMERA_FEATURES "相机功能"
+    IDS_SAVE                "保存"
+    IDS_DLG_NLC_AUTO_DETECT_CIR "自动检测圆"
+    IDS_DLG_JOB             "添加/删除/更改作业"
+    IDS_DLG_PARAMETERS      "参数"
+    IDS_DLG_TOL_SEL_MEAS    "选择测量"
+    IDS_DLG_TOL_POS         "位置"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_TOL_MIN_DIST    "最小距离"
+    IDS_DLG_TOL_MAX_DIST    "最大距离"
+    IDS_DLG_TOL_INCL_ANG_MIN "包括角度最小值"
+    IDS_DLG_TOL_INCL_ANG_MAX "包含最大角度"
+    IDS_UPDATE              "更新"
+    IDS_DLG_LINE_SPT_X      "起始点 X"
+    IDS_DLG_LINE_SPT_Y      "起始点 Y"
+    IDS_DLG_LINE_EPT_X      "端点 X"
+    IDS_DLG_LINE_EPT_Y      "端点 Y"
+    IDS_DLG_LINE_MPT_X      "中点 X"
+    IDS_DLG_LINE_MPT_Y      "中点 Y"
+    IDS_DLG_LINE_ANG        "带 X 轴的角度"
+    IDS_DLG_LINE_LENGTH     "线长"
+    IDS_DLG_CALIB_3POINT_SIZE "圆的实际大小"
+    IDS_DLG_CALIB_3POINT_NO_OF_PIXELS "像素数"
+    IDS_DLG_CALIB_3POINT_XCALIB "X 校准因子"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_CALIB_3POINT_YCALIB "Y校准系数"
+    IDS_DLG_CALIB_3POINT_C1_C2 "C1 - C2"
+    IDS_DLG_CALIB_3POINT_C1_C3 "C1 - C3"
+    IDS_DLG_COORD_ANGLE     "获取坐标角度"
+    IDS_DEGREES             "度"
+    IDS_MN_IMAGE_ZOOM100    "缩放 100%"
+    IDS_MEAS_ADD            "添加测量"
+    IDS_CANCEL_CURRENT_OPER "取消当前操作"
+    IDS_REFRESH_ALL_VIEWS   "刷新所有视图"
+    IDS_MN_INSP_CONT_INSP   "连续检查"
+    IDS_MN_INSP_EDIT_AUTO   "自动模式"
+    IDS_MN_INSP_EDIT_MANUAL "手动模式"
+    IDS_DELETE_SHAPE        "删除形状"
+    IDS_WINDOW_VIDEO        """显示视频窗口"""
+    IDS_WINDOW_CAD          """显示 CAD 窗口"""
+    IDS_DELETE_ALL          "删除所有"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEL_CLKD_ELLIPSE    "通过按顺序单击选择椭圆点 - 顺时针或逆时针"
+    IDS_SEL_CLKD_SPLINE     "通过按顺序单击选择样条线点 - 顺时针或逆时针"
+    IDS_MEASDIST_PARALLEL_LINES "选择两条平行线以查找它们之间的距离"
+    IDS_LENGTH              "长度"
+    IDS_WIDTH               "宽度"
+    IDS_ANGLE               "角度"
+    IDS_AUTO_FIND           "自动查找"
+    IDS_CLICKED             "点击"
+    IDS_CONSTRUCT           "构建"
+    IDS_MEAS                "测量"
+    IDS_COORD               "坐标"
+    IDS_HEIGHT              "高度"
+    IDS_DIST                "距离"
+    IDS_MEASLINETOARC       "线弧距离"
+    IDS_MEASCIRCLETOARC     "圆弧距离"
+    IDS_MEASARCTOARC        "弧弧距离"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_INVALID             "无效"
+    IDS_FASTSCANNMEASURE    "快速扫描测量"
+    IDS_LICENCE_EXPIRED     "许可证已过期!"
+    IDS_APP_RUNNING         "应用程序已在运行。不能再开始!"
+    IDS_IMAGE_NOT_FOUND     "无法打开或找到图像"
+    IDS_CALIB_NOT_CENTERED  "校准母版未正确居中"
+    IDS_INVALID_VALUES      "无效值"
+    IDS_CAMPARAMS_LINERATE_CHECK "行速率应大于"
+    IDS_CAMPARAMS_EXPTIME_CHECK "曝光时间应小于"
+    IDS_INSP_TIMELAPSE_CHECK "时间延迟未设置!"
+    IDS_INSP_JOBSET_NUM_CHECK "未设置作业集数!"
+    IDS_DLG_DELETEJOB_CHK_SELECTBEFOREDELETE "请在尝试删除之前选择一个作业!"
+    IDS_DLG_DELETEJOB_CHK_CONFIRMDELETE "是否确实要删除此作业？"
+    IDS_DLG_DELETEJOB_CHK_CANNOTDELETEJOB "无法删除。只有一个作业类型可用,它是当前作业。"
+    IDS_DLG_DELETEJOB_HASBEENDELETED "已删除"
+    IDS_DLG_DELETEJOB_COULDNOTDELETE "无法删除"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_JOB_ASK_LOADSETTING "是否要加载此作业的设置？"
+    IDS_DLG_JOB_SELECTED    "已被选中"
+    IDS_DLG_SET_EXP_TIME    "输入曝光时间之间"
+    IDS_CPORT_NOT_AVAILABLE "通信端口不可用"
+    IDS_DLG_MEAS_AVG_DIST   "平均距离"
+    IDS_MEASPOINTTOARC      "点弧分"
+    IDS_DLG_MEAS_ARC_START_ANGLE "起始角度"
+    IDS_DLG_MEAS_ARC_END_ANGLE "结束角度"
+    IDS_DLG_MEAS_ARC_LENGTH "弧长"
+    IDS_DLG_MEAS_ARC_INCLINATION_ANGLE "倾角"
+    IDS_MEASARC             "参数弧"
+    IDS_MSGCAMRECONNECT     "相机重新连接"
+    IDS_EDIT_SHAPE          "编辑形状"
+    IDS_LOAD_MASTER_IMAGE   "加载主映像"
+    IDS_EXPORT_DXF          "导出 DXF"
+    IDS_GRIDMEASTITLECOL5   "标准值"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MEASSLOT            "插槽参数"
+    IDS_MEASCIRCLETOSLOT    "圆形槽分"
+    IDS_MEASARCTOSLOT       "弧槽分"
+    IDS_MEASRECTTOSLOT      "整槽分型"
+    IDS_MEASELLIPSETOSLOT   "椭圆-插槽分片"
+    IDS_MEASPOLY            "多边形参数"
+    IDS_MEASCIRCLETOPOLY    "圆 - 多边形距离"
+    IDS_MEASARCTOPOLY       "弧形 - 多边形距离"
+    IDS_MEASRECTTOPOLY      "矩形 - 多边形距离"
+    IDS_MEASELLIPSETOPOLY   "椭圆 - 多边形距离"
+    IDS_MEASSLOTTOPOLY      "键槽 - 多边形距离"
+    IDS_DLGLINESELECT_THROUGH_CIRCLE_LINES "经过两圆心的直线"
+    IDS_DLGLINESELECT_THROUGH_TANGENT_LINES "两个圆的切线"
+    IDS_DLGLINESELECT_PERPRNDICULAR_BISECTOR "垂直平分线"
+    IDS_DLGCONTINSP_ST_TIME_BTW_2SETS "间隔时间"
+    IDS_DLGCONTINSP_ST_NUMBER_OF_JOB_SETS "工件数量"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLGCONTINSP_CHK_AUTO_CREATE_EXCEL "自动导出 Excel"
+    IDS_DLGCONTINSP_CHK_SHOW_XLS "在每个检测工件后显示EXCEL文件"
+    IDS_DLGCONTINSP_ST_EXCEL_PATH "Excel 路径"
+    IDS_DLGCONTINSP_BTN_NEW_EXCEL_FILE "新建"
+    IDS_DLGCONTINSP_BTN_BROWSE_EXCEL_FILE "浏览"
+    IDS_DLGCONTINSP_BTN_OPEN_EXCEL_FILE "打开"
+    IDS_DLGCONTINSP_RAD_CUSTOM_FORMAT "自定义格式"
+    IDS_DLGCONTINSP_RAD_DEF_FORMAT1 "默认格式 - 1"
+    IDS_DLGCONTINSP_RAD_DEF_FORMAT2 "默认格式 - 2"
+    IDS_DLGCONTINSP_BTN_HEADER_SETTING "标题设置"
+    IDS_DLGCONTINSP_RAD_SELECTED_DATA "导出所选数据"
+    IDS_DLGCONTINSP_RAD_DATA_WITH_TOLERANCE "导出有公差的数据"
+    IDS_DLGCONTINSP_CHK_PAUSE_OVERSTEP_TOLEARNCES "超出公差时暂停"
+    IDS_DLGCONTINSP_CHK_SINGLE_STEP_MODE "单步模式"
+    IDS_DLGCONTINSP_CHK_POSITIONING_NOT_MEASURED "仅定位，不测量"
+    IDS_DLGCONTINSP_CHK_AUTO_RUN_NEXT_STEP "未检测到对象时自动运行下一步"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLGCONTINSP_CHK_AUTO_SAVE_SETTING "自动将此页面的设置保存到文件"
+    IDS_DLGCONTINSP_CHK_SET_DEFAULT "设置为默认值"
+    IDS_DLGCONTINSP_CHK_EXPORT_NAME "导出名称"
+    IDS_DLGCONTINSP_CHK_EXPORT_STD_VALUE "导出标准值"
+    IDS_DLGCONTINSP_CHK_EXPORT_UPPER_TOL "导出上公差"
+    IDS_DLGCONTINSP_CHK_EXPORT_LOWER_TOL "导出下公差"
+    IDS_DLGCONTINSP_CHK_EXPORT_VALUE "输出数据"
+    IDS_DLGCONTINSP_CHK_EXPORT_ERROR "输出误差"
+    IDS_DLGCONTINSP_CHK_EXPORT_JUDGED "输出判定"
+    IDS_DLGCONTINSP_CHK_EXPORT_MEAS_TIME "输出测量时间"
+    IDS_DLGCONTINSP_CHK_EXPORT_OVERFLOW_STATE "输出超差状态"
+    IDS_CONSTRUCTLINEL2C_VERTICAL_LINE_L2C "从圆到线的垂直线"
+    IDS_CONSTRUCTLINEL2C_IIeI_LINE_TANGENT_CIRCLE "平行于直线，与圆切线"
+    IDS_CONSTRUCTLINEP2P_CONSTUCT_LINE_THROUGH_POINTS "两点连线"
+    IDS_CONSTRUCTLINEP2C_CONSTRUCT_LINE_TANGENTS_P2C "从点到圆的切线"
+    IDS_CONTROLPANE_ST_CLICKED_SHAPES "一键画图"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONTROLPANE_CV_GB_AUTOFINDSHAPES "自动查找形状"
+    IDS_CONTROLPANE_ST_LABELS "标签"
+    IDS_CONTROLPANE_ST_CONSTRUCT_LINE_POINT "构造线/点"
+    IDS_CONTROLPANE_ST_MEASUREMENT_CONTROL_PANE "测量"
+    IDS_CONTROLPANE_ST_LINE_ADJUSTMENTS "线路调整"
+    IDS_CONTROLPANE_ST_COORDINATE_AXES "坐标轴"
+    IDS_CONTROLPANE_ST_OTHERS "其它"
+    IDS_REPORT_SELECT       "报告 - 选择"
+    IDS_REPORT_CANCEL_SELECT "报告 - 取消选择"
+    IDS_REPORT_SELECT_ALL   "报告 - 选择全部"
+    IDS_REPORT_SELECT_NONE  "报告 - 选择""无"""
+    IDS_TOLERANCE_BATCH_SET "公差 - 批量处理"
+    IDS_TOLERANCE_BATCH_DELETE "公差 - 批量删除"
+    IDS_MEASELLIPSE         "椭圆参数"
+    IDS_MEAS_PROPORTION     "比例"
+    IDS_MEAS_MINOR_LENGTH   "次要长度"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SET_COORDINATE      "设置坐标"
+    IDS_MENU_INSP_START     "开始"
+    IDS_MENU_INSP_PAUSE     "暂停"
+    IDS_MENU_INSP_STOP      "停止"
+    IDS_MN_SETTINGS_CALIB_LENS_CORRECTION "镜头校正"
+    IDS_MN_SETTINGS_CALIB_LENS_PAN_ENTITY_SETTINGS "平移图形设置"
+    IDS_MN_SETTINGS_CALIB_LENS_DETECT_COMPENSATION_POINTS "检测补偿点"
+    IDS_MN_SETTINGS_CALIB_LENS_ENABLE_LENS_CORRECTION "启用镜头校正"
+    IDS_PROCESS_CAPABILITY_ANALYSIS "过程能力分析"
+    IDS_POPULATION          "人口"
+    IDS_LSL                 "规格下限"
+    IDS_USL                 "规格上限"
+    IDS_SAMPLE_MEAN         "样本均值"
+    IDS_WITHIN_SIGMA        "西格玛内"
+    IDS_OVERALL_SIGMA       "整体西格玛"
+    IDS_CPL                 "Cpl"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MSGSECURITYDONGLE   "请检查插入的加密狗!!!"
+    IDS_IMAGE_ENHANCEMENT   "图像增强"
+    IDS_SETTING_COLOR       "颜色设置"
+    IDS_CALIB_ROWS_OF_CIRCLES "一排圆"
+    IDS_CALIB_COLS_OF_CIRCLES "圆柱"
+    IDS_CALIB_DIAMETER_OF_CIRCLE "圆直径（毫米）"
+    IDS_CALIB_DIST_BET_TWO_CIRCLES "两个最近圆心距离（毫米）"
+    IDS_IMG_ENHC_GRAY_STRETCH "灰色拉伸"
+    IDS_IMG_ENHC_RESET      "重 置"
+    IDS_IMG_ENHC_APPLY_EDGE_DETECTION "应用边缘检测"
+    IDS_CALIBRATION_ABORTED "校准已中止"
+    IDS_CALIB_THREE_CIRCLES_CHCK1 "请确保只有 3 个圆圈添加到网格中！！"
+    IDS_CALIB_THREE_CIRCLES_CHCK2 "请确保添加到网格中的圆圈顺序正确！！"
+    IDS_CALIB_MANUAL_XY     "手动 XY 校准"
+    IDS_CALIB_THREE_CIRCLES_CHCK "请绘制 3 个角圈进行校准，以便左上角圆圈为 C1，右上角为 C2，左下角为 C3"
+    IDS_DLGINSPPARAMS       "检测参数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLGINSPPARAMS_SHAPESIZESELECTION "形状大小选择"
+    IDS_DLGINSPPARAMS_SHAPESIZESELECTION_MIN "最小"
+    IDS_DLGINSPPARAMS_SHAPESIZESELECTION_MAX "最大"
+    IDS_DLGINSPPARAMS_SEGMENTCONTOURPARAMS "段轮廓参数"
+    IDS_DLGINSPPARAMS_SEGMENTCONTOURPARAMS_MODE "模式"
+    IDS_DLGINSPPARAMS_SEGMENTCONTOURPARAMS_SMOOTHNESS "平滑"
+    IDS_DLGINSPPARAMS_SEGMENTCONTOURPARAMS_MAXLINEDIST1 "最大线距离1"
+    IDS_DLGINSPPARAMS_SEGMENTCONTOURPARAMS_MAXLINEDIST2 "最大线距离2"
+    IDS_DLGINSPPARAMS_ALGOPARAMS "算法参数"
+    IDS_DLGINSPPARAMS_ALGOPARAMS_ALGO "算法"
+    IDS_DLGINSPPARAMS_ALGOPARAMS_MAXNUMPNTS "最大号积分"
+    IDS_DLGINSPPARAMS_ALGOPARAMS_CLIPINGPNTS "剪切点"
+    IDS_DLGINSPPARAMS_ALGOPARAMS_ITERATIONS "迭 代"
+    IDS_DLGINSPPARAMS_ALGOPARAMS_CLIPPINGFACTOR "剪切因子"
+    IDS_DLGINSPPARAMS_FITLINEPARAMS "拟合线参数"
+    IDS_DLGINSPPARAMS_UNIONCOLINEARLINES "联合共线线段"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLGINSPPARAMS_UNIONCOLINEARLINES_MAXDISTABS "最大绝对距离"
+    IDS_DLGINSPPARAMS_UNIONCOLINEARLINES_MAXDISTREL "最大相对距离"
+    IDS_DLGINSPPARAMS_UNIONCOLINEARLINES_MAXSHIFT "最大移位"
+    IDS_DLGINSPPARAMS_FITCIRCLEPARAMS "拟合圆参数"
+    IDS_DLGINSPPARAMS_UNIONCOCIRCULARCIRCLES "联合共圆"
+    IDS_DLGINSPPARAMS_UNIONCOCIRCULARCIRCLES_MAXANGLEDIFF "最大角度差异"
+    IDS_DLGINSPPARAMS_UNIONCOCIRCULARCIRCLES_MAXOVERLAP "最大重叠"
+    IDS_DLGINSPPARAMS_UNIONCOCIRCULARCIRCLES_MAXTANGENTANGLE "最大切线角度"
+    IDS_DLGINSPPARAMS_UNIONCOCIRCULARCIRCLES_MAXDIST "最大距离"
+    IDS_DLGINSPPARAMS_UNIONCOCIRCULARCIRCLES_MAXRADIUSDIFF "最大半径差异"
+    IDS_DLGINSPPARAMS_UNIONCOCIRCULARCIRCLES_MAXCENTERDIST "最大中心距"
+    IDS_DLGINSPPARAMS_UNIONCOCIRCULARCIRCLES_ITERATIONS "迭 代"
+    IDS_DLGINSPPARAMS_FITRECTPARAMS "拟合矩形参数"
+    IDS_DLGINSPPARAMS_UNIONADJACENTCONTOURS "联合相邻轮廓"
+    IDS_DLGINSPPARAMS_UNIONADJACENTCONTOURS_MAXABSDIST "最大绝对距离"
+    IDS_DLGINSPPARAMS_UNIONADJACENTCONTOURS_MAXRELDIST "最大相对距离"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLGINSPPARAMS_FITELLIPSEPARAMS "拟合椭圆参数"
+    IDS_DLGINSPPARAMS_MODELPARAMS "模型参数"
+    IDS_DLGINSPPARAMS_MODELPARAMS_CONTRAST "对比"
+    IDS_DLGINSPPARAMS_MODELPARAMS_MINCONTRAST "最小对比度"
+    IDS_DLGINSPPARAMS_MODELPARAMS_REDUCTIONFACTOR "折减系数"
+    IDS_DLGINSPPARAMS_INSPMODELPARAMS "检查型号参数"
+    IDS_DLGINSPPARAMS_INSPMODELPARAMS_MINCONTRAST "最小对比度"
+    IDS_DLGINSPPARAMS_INSPMODELPARAMS_MAXCONTRAST "最大对比度"
+    IDS_DLGINSPPARAMS_INSPMODELPARAMS_CONTRASTTHRESH "对比度阈值"
+    IDS_DLGINSPPARAMS_DETECTMODELPARAMS "检测型号参数"
+    IDS_DLGINSPPARAMS_DETECTMODELPARAMS_MINSCORE "最低分数"
+    IDS_DLGINSPPARAMS_DETECTMODELPARAMS_ACCURACY "精度"
+    IDS_DLGINSPPARAMS_DETECTMODELPARAMS_GREEDINESS "贪婪"
+    IDS_DLGINSPPARAMS_DETECTMODELPARAMS_PYRAMIDLEVELS "金字塔级别"
+    IDS_DLGINSPPARAMS_DETECTMODELPARAMS_MAXOVERLAP "最大重叠"
+    IDS_DLGINSPPARAMS_MEASPARAMS "测量参数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLGINSPPARAMS_MEASPARAMSLINE "线"
+    IDS_DLGINSPPARAMS_MEASPARAMSCIRCLE "圆"
+    IDS_DLGINSPPARAMS_MEASPARAMSRECT "矩形"
+    IDS_DLGINSPPARAMS_MEASPARAMSELLIPSE "椭圆"
+    IDS_DLGINSPPARAMS_MEASPARAMS_LENGTH1 "长度1"
+    IDS_DLGINSPPARAMS_MEASPARAMS_LENGTH2 "长度2"
+    IDS_DLGINSPPARAMS_MEASPARAMS_SIGMA "西格玛"
+    IDS_DLGINSPPARAMS_MEASPARAMS_MINSCORE "最低分数"
+    IDS_DLGINSPPARAMS_MEASPARAMS_EDGETHRESH "边缘阈值"
+    IDS_DLGINSPPARAMS_MEASPARAMS_DISTTHRESH "分阈值"
+    IDS_DLGINSPPARAMS_ALGOPARAMS_MAXCLOSUREDIST "最大闭合分"
+    IDS_VERTICES            "顶点"
+    IDS_DLGTRACKERMARGIN    "跟踪器边距"
+    IDS_MEASRECTTOARC       "整弧分"
+    IDS_MEASRECTTORECT      "整流 Dist"
+    IDS_MN_SETTINGS_TRACKER "跟踪器设置"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MEASRECTTOCIRCLE    "整圈分型"
+    IDS_ELLIPSE_FAIL        "椭圆拟合失败！"
+    IDS_DLG_MEAS_MAJOR_RAD_ELLIPSE "半主轴"
+    IDS_DLG_MEAS_MINOR_RAD_ELLIPSE "半小轴"
+    IDS_DLG_MEAS_ROTATION_ANGLE_ELLIPSE "旋转角度"
+    IDS_MEASLINETOELLIPSE   "线-椭圆"
+    IDS_MEASCIRCLETOELLIPSE "圆-椭圆"
+    IDS_MEASARCTOELLIPSE    "弧形椭圆"
+    IDS_MEASPOINTTOELLIPSE  "点椭圆"
+    IDS_MEASRECTTOELLIPSE   "整线-椭圆"
+    IDS_MEASELLIPSETOELLIPSE "椭圆-椭圆"
+    IDS_MODEL_ANGLE_START   "开始角度"
+    IDS_MODEL_ANGLE_END     "结束角度"
+    IDS_MODEL_ANGLE_STEP    "角度步长"
+    IDS_DLGINSPPARAMS_LARGEMODELPARAMS "大型型号参数"
+    IDS_DLGINSPPARAMS_DETECTLARGEMODELPARAMS "检测大型型号参数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MEAS_MAJOR_LENGTH   "主要长度"
+    IDS_MEAS_RAD_MAJOR      "半径主要"
+    IDS_MEAS_RAD_MINOR      "半径小"
+    IDS_MEAS_ROTATION_ANGLE "旋转角度"
+    IDS_MEAS_ELLIPSE_SHAPEWARP "形状变形"
+    IDS_REPORT_BATCH_SELECT "公差- 批次选择"
+    IDS_REPORT_BATCH_CANCEL_SELECT "公差- 批量取消选择"
+    IDS_TOLERANCE_EDIT      "公差- 编辑"
+    IDS_TOLERANCE_DELETE    "公差- 删除"
+    IDS_REPORT_DESELECT     "报告 - 取消选择"
+    IDS_MEAS_AVG_CNTR_DIST  "D"
+    IDS_MEAS_XYLINEAR       "线性标注"
+    IDS_MEAS_RADIUS         "标注半径"
+    IDS_MEAS_DIAMETER       "标注直径"
+    IDS_MEAS_XYCOORD        "标注坐标"
+    IDS_MEAS_ANGLE          "标注角度"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEL_CLKD_LINE       "单击两个所需点以在两个点之间构造一条线。"
+    IDS_SEL_CLKD_CIRCLE     "按顺序单击选择圆点 - 顺时针或逆时针"
+    IDS_SEL_CLKD_ARC        "按顺序单击选择弧点 - 顺时针或逆时针"
+    IDS_SEL_CLKD_RECT       "按顺序单击选择矩形点 - 顺时针或逆时针"
+    IDS_SEL_CLKD_SLOT       "按顺序单击选择插槽点 - 顺时针或逆时针"
+    IDS_SEL_LINE_MERGE      "选择两共线的线段合并为一条单一的直线。"
+    IDS_EDGE_DETECTION_PARAMS "设置边缘检测参数"
+    IDS_RAD_DLGEXCEL_SELECTED_DATA_PRE_ARRANGED_FORMAT "导出所选数据，使用默认格式"
+    IDS_RAD_DLGEXCEL_SELECTED_DATA_USER_DEFINED_FORMAT "导出所选数据，使用自定义格式"
+    IDS_RAD_DLGEXCEL_DATA_WITH_TOL_USER_DEFINED_FORMAT "导出具有公差的数据，使用自定义格式"
+    IDS_RAD_DLGEXCEL_TEMPLETE_CREATE_NEW "使用模板创建一个新文件:"
+    IDS_RAD_DLGEXCEL_ADD_TO_EXISTENT_FILE "新建表格"
+    IDS_CHK_DLGEXCEL_COPY_DURING_RUNNING "运行程序时，请复制到："
+    IDS_RAD_DLGEXCEL_OUTPUT_LEFT_TO_RIGHT "从左到右输出"
+    IDS_RAD_DLGEXCEL_OUTPUT_TOP_TO_BOTTOM "从上到下输出"
+    IDS_RAD_DLGEXCEL_VALUE_MODE "数值模式"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RAD_DLGEXCEL_TEXT_MODE "文本模式"
+    IDS_STATIC_DLGEXCEL_GOOD "合格:"
+    IDS_STATIC_DLGEXCEL_NO_GOOD "不合格："
+    IDS_CHK_DLGEXCEL_EXPORT_STD_VALUE_WITH_TOL "导出标准值与公差"
+    IDS_DLG_EXPORT_EXCEL    "导出 Excel"
+    IDS_RADIO_TOL_SAME_TYPE "所有相同类型"
+    IDS_RADIO_TOL_SEL_SAME_TYPE "已选择相同类型的数据"
+    IDS_STATIC_STD_VAL      "标准值"
+    IDS_STATIC_UPPER_TOLERANCE "上公差"
+    IDS_STATIC_LOWER_TOLERANCE "下公差"
+    IDS_RADIO_STDVAL_MEAS_VAL "标准值使用测量值"
+    IDS_RADIO_STDVALUE_SETVALUE "标准值设定值"
+    IDS_TOTAL_SAMPLES_MEASURED "测量的样品总数"
+    IDS_PRIMITIVE_NAME      "原始名称"
+    IDS_AVERAGE             "平均"
+    IDS_VARIANCE            "方差"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CA                  "关于"
+    IDS_CP                  "稳定性"
+    IDS_CPK                 "制程能力"
+    IDS_ARTIFACT_NO         "项目号"
+    IDS_SUBSIDIARY_BARCODE  "辅助条形码"
+    IDS_MEASURING_TIME      "测量时间"
+    IDS_MEASURED_DATA       "测量数据"
+    IDS_WORKPIECE           "工件"
+    IDS_NAME                "名字"
+    IDS_SPECIFICATIONS      "规格"
+    IDS_MEASURE             "措施"
+    IDS_ERROR               "错误"
+    IDS_JUDGED              "判断"
+    IDS_OVERSTEP            "超越"
+    IDS_OBJECT_NO           "对象编号"
+    IDS_ITEM_NAME           "项目名称"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STANDARD            "标准值"
+    IDS_UP_TOL              "上公差"
+    IDS_DOWN_TOL            "下公差"
+    IDS_MAX                 "最大"
+    IDS_MIN                 "最小"
+    IDS_SAMPLE              "样品名称"
+    IDS_SAMPLE_NUMBER       "样品编号"
+    IDS_GROUP               "组"
+    IDS_AVG                 "算术平均值"
+    IDS_RANGE               "范围"
+    IDS_MEDIAN              "中间值"
+    IDS_STD_DEV             "标准差"
+    IDS_DATE                "日期"
+    IDS_TOTAL_SAMPLES       "样本总数"
+    IDS_FAILURE             "失败"
+    IDS_DATE_TIME           "日期和时间"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CPU                 "Cpu"
+    IDS_PP                  "Pp"
+    IDS_PPK                 "Ppk"
+    IDS_PPL                 "Ppl"
+    IDS_PPU                 "Ppu"
+    IDS_CALIB_CHECKBOARD_CHCK "请在中心找出两条垂直线交点后操作"
+    IDS_JOB_DETECTION_FAIL  "检测失败！图形在模板以外！"
+    IDS_TMPLT_CREATION_FAIL "模板创建失败！"
+    IDS_TMPLT_CREATION_SUCCESS "模板创建成功"
+    IDS_CFG_FILE_CREATE_FAILS "Cfg文件创建失败，请避免在文件名末尾使用空格。"
+    IDS_MEASSPLINE          "样条参数"
+    IDS_MEASLINETOSPLINE    "线 - 多边形距离"
+    IDS_MEASCIRCLETOSPLINE  "圆 - 样条距离"
+    IDS_MEASARCTOSPLINE     "弧 - 样条距离"
+    IDS_MEASRECTTOSPLINE    "矩形 - 样条距离"
+    IDS_MEASELLIPSETOSPLINE "椭圆 - 样条距离"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MEASSLOTTOSPLINE    "槽 - 样条距离"
+    IDS_MEASPOLYTOSPLINE    "多边形 - 样条距离"
+    IDS_MEASSPLINETOSPLINE  "样条 - 样条距离"
+    IDS_MEASPOINTTOSPLINE   "点 - 样条距离"
+    IDS_POINTSCOUNT         "积分计数"
+    IDS_COORD_XAXIS         "坐标 X 轴"
+    IDS_COORD_YAXIS         "坐标 Y 轴"
+    IDS_COORD_TRANS         "坐标翻译"
+    IDS_COORD_TRANS_ROTATE  "坐标转换-旋转"
+    IDS_DELETEALLCONFIRMMSG "删除所有将删除所有测量值，这不会被撤回。是否要继续？"
+    IDS_DELETEPRGSTEPWARNING "无法检索删除程序步骤。是否要继续？"
+    IDS_GRIDMEASRESULTTITLECOL1 "测量 - 结果"
+    IDS_CHCK_PAN_ENTITY_INTERVAL "在检测补偿点之前设置平移实体设置"
+    IDS_JOB_THICKNESS       "工件厚度"
+    IDS_EXIT_DETECT_COMP_POINTS "退出检测补偿点需要更长的时间，请检查校准值！"
+    IDS_START_GRAB_LOC      "抓取开始位置"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAMEXPERT_RUNNING   "CamExpert 正在运行。请在运行此应用程序之前关闭 CamExpert。"
+    IDS_SAPERAMONITOR_RUNNING "萨佩拉监测器正在运行。请在运行此应用程序之前关闭 SaperaMonitor。"
+    IDS_EDGEDETECTZOOMWARNING "无法在此缩放级别应用边缘检测！"
+    IDS_LENSCORR_COMPUTEFIXEDGRIDPOINTS "计算固定补偿点"
+    IDS_LENSCORR_COMPUTE_FIXED_PNTS_SUCCESS "固定补偿点计算成功"
+    IDS_LENSCORR_COMPUTE_FIXED_PNTS_FAILED "固定补偿点计算失败"
+    IDS_NGCOLORSET          "NG 测量颜色"
+    IDS_DLG_JOB_SAVE_AS     "将作业保存为"
+    IDS_DISABLE_MAP         "禁用地图"
+    IDS_ERMSG_MAPNOTLOADED  "未创建/加载!!!的地图"
+    IDS_ENPREVJOBLOAD       "启用以前的作业负载"
+    IDS_DISABLEPREVJOBLOAD  "禁用以前的工作负载"
+    IDS_AUTO_FIND_SEC       "自动查找秒"
+    IDS_DXF_PARAMS          "DXF 参数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_NO_DATA_AVAILABLE   "没有可用的数据！"
+    IDS_NO_SUFF_DATA_AVAILABLE "足够的数据不可用！"
+    IDS_INVALID_VALUES_NO_GRAPH "无效值。无法显示图形！"
+    IDS_DEPT                "部"
+    IDS_MACHINE_NO          "机器号"
+    IDS_FREQUENCY           "频率"
+    IDS_SERIAL_NO           "序列号"
+    IDS_MACHINE             "机"
+    IDS_TABLE               "表"
+    IDS_VALUES              "值"
+    IDS_CHART               "图表"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GRID                "网 格"
+    IDS_SIGMA               "西格玛"
+    IDS_ANALYSIS            "分析"
+    IDS_FAILED_DATA_POINTS  "无法获取数据点"
+    IDS_EXCEL_APP_ERROR     "无法启动 Excel 并获取应用程序对象。"
+    IDS_SIMPLE_ANALYSIS_CHART "简单分析图表"
+    IDS_PROCESS_CAPABILITY_CHART "流程能力图表"
+    IDS_GOOD_JOB            "良品"
+    IDS_BAD_JOB             "不良品"
+    IDS_TYPE                "类型"
+    IDS_POSITIONING         "定位"
+    IDS_CALCULATION         "计算"
+    IDS_CORRELATIVE_OBJECTS "相关对象"
+    IDS_PROGRAM_LIST        "程序列表"
+    IDS_MSG_CORRECT_START_CELL "请输入正确的启动单元。"
+    IDS_MSG_SEL_EXCEL_FILE  "请选择 Excel 文件"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MSG_FILE_NOT_FOUND  "未找到文件"
+    IDS_MSG_FILE_DELETE_IN_OPEARTION "在操作之间删除的 Excel 文件。"
+    IDS_MSG_INSERT_JOB_NAME "请插入作业名称"
+    IDS_MEG_JOB_NAME_EXIST  "注册表中已存在作业名称！是否要覆盖设置？"
+    IDS_DXF_OPTION_STATIC_TEXT "请选择需要输入的对象"
+    IDS_DXF_OPTION_CIRCLE   "圆"
+    IDS_DXF_OPTION_LABEL    "标注"
+    IDS_DXF_OPTION_OTHER_OBJECTS "其他对象"
+    IDS_DXF_MEAS_ELEMENT1   "测量元件1 (X)"
+    IDS_DXF_MEAS_ELEMENT2   "测量元素2 (Y)"
+    IDS_DXF_DXF_ELEMENT1    "Dxf 元素 1"
+    IDS_DXF_DXF_ELEMENT2    "Dxf 元素2"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MSG_NO_INTERSECTIONS "没有交叉点！"
+    IDS_MN_LABEL_ANGLE      "角度标注"
+    IDS_DLGCOLORSET_STATIC_LINE_COLOR "线条颜色"
+    IDS_DLGCOLORSET_STATIC_ARC_COLOR "弧/圆颜色"
+    IDS_DLGCOLORSET_STATIC_ELLIPSE_COLOR "椭圆色"
+    IDS_DLGCOLORSET_STATIC_RECT_COLOR "矩形颜色"
+    IDS_DLGCOLORSET_STATIC_SPLINE_COLOR "花键颜色"
+    IDS_DLGCOLORSET_STATIC_SLOT_COLOR "键槽颜色"
+    IDS_DLGCOLORSET_STATIC_LABEL_COLOR "标注颜色"
+    IDS_DLGCOLORSET_STATIC_TEXT_LABEL_COLOR "文本标注颜色"
+    IDS_DLGCOLORSET_STATIC_SELECT_FEAT_COLOR "所选特征颜色"
+    IDS_DLGCOLORSET_STATIC_EDGE_POINT_COLOR "边缘点颜色"
+    IDS_DLGCOLORSET_STATIC_TEMP_FEAT_COLOR "临时特征颜色"
+    IDS_DLGCOLORSET_STATIC_COORD_AXIS_COLOR "坐标轴颜色"
+    IDS_DLGCOLORSET_STATIC_FEAT_POINT_RECT_COLOR "特征点矩形颜色"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLGCOLORSET_STATIC_FEAT_LABEL_COLOR "特征标注"
+    IDS_DLGCOLORSET_STATIC_FEAT_LABEL_HIGHTLIGHT_COLOR "特征高光标注"
+    IDS_DLGCOLORSET_STATIC_COORDI_LABEL_COLOR "坐标标签"
+    IDS_DLGCOLORSET_STATIC_COORDI_LABEL_HIGHLIGHT_COLOR "坐标高光标注"
+    IDS_DLGCOLORSET_STATIC_POLY_COLOR "多边形颜色"
+    IDS_DLGCOLORSET_STATIC_POINT_COLOR "点颜色"
+    IDS_DLGCOLORSET_STATIC_TEMPLATE_RECT_COLOR "模板矩形颜色"
+    IDS_DLGCOLORSET_STATIC_INFO_LABEL_TEXT_COLOR "信息标注文本颜色"
+    IDS_DLGCOLORSET_STATIC_REPORT_SELECT_COLOR "报告选择颜色"
+    IDS_DLGCOLORSET_STATIC_TOLERANCE_SET_COLOR "公差设置颜色"
+    IDS_MSG_JOB_SAVE_SUCCESSFUL "已成功保存作业"
+    IDS_MSG_METHOD_2_ACTIVATED "方法 2 已激活。"
+    IDS_MSG_METHOD_1_ACTIVATED "方法 1 已激活。"
+    IDS_MSG_WAIT_DETECT_POINT "请等待检测补偿点。"
+    IDS_MSG_POINTS_DETECTED "检测到补偿点。所用时间"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MN_SETTINGS_CALIB_LENS_DISABLE_LENS_CORRECTION "禁用镜头校正"
+    IDS_STATUSBAR_CONFIG_FILE "配置文件"
+    IDS_STATUSBAR_JOB_NAME  "作业名称"
+    IDS_PIXEL               "像素"
+    IDS_MSG_CFG_NOT_FOUND   "找不到此作业的 CFG 文件名！无法加载设置！"
+    IDS_MSG_UNABLE_TO_OPEN  "无法打开"
+    IDS_MSG_GRAB_IMAGE      "请抓取/加载图像"
+    IDS_GRAY                "灰色"
+    IDS_POINT1_X            "点 1 X"
+    IDS_POINT1_Y            "点 1 Y"
+    IDS_POINT2_X            "点 2 X"
+    IDS_POINT2_Y            "点 2 Y"
+    IDS_POINT3_X            "点 3 X"
+    IDS_POINT3_Y            "点 3 Y"
+    IDS_POINT4_X            "点 4 X"
+    IDS_POINT4_Y            "点 4 Y"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MSG_TEST_IMAGE_EXIT "测试图像退出为模型未加载!!!"
+    IDS_MSG_JOB_DETECTION_EXIT "作业检测退出为未加载的!!!"
+    IDS_TOTAL_JOBS          "作业总数"
+    IDS_INSPECTION_NO       "检查号"
+    IDS_SR_NO               "序列号"
+    IDS_TIME                "时间"
+    IDS_OPERATOR            "操作员"
+    IDS_UNIT                "单位"
+    IDS_MSG_PDF_PAGE_CANT_CREATED "无法创建 PDF 报表页 - 找不到模板文件"
+    IDS_MSG_ERROR_PDF_INVALID_EXE "在创建 Pdf 时发生错误。"
+    IDS_MSG_ERROR_PDF_FILE_NOT_FOUND "未找到创建 Pdf 时发生的错误！"
+    IDS_MSG_ERROR_PDF_PATH_NOT_FOUND "未找到创建 Pdf 时发生的错误！"
+    IDS_WORD_APP_ERROR      "无法打开 Word"
+    IDS_STATIC_DLGHEADER_COMP_NAME "公司名称："
+    IDS_STATIC_DLGHEADER_MANUAL_IP "手动输入："
+    IDS_CHK_EXPORT_DATE_TIME "输出日期和时间等"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLGHEADER_CAPTION   "标题设置"
+    IDS_ADDED               "添加"
+    IDS_TEXT                "发短信"
+    ID_INDICATOR_ZOOM       " "
+    ID_INDICATOR_CALIBFACT  " "
+    ID_INDICATOR_XY_COORD   " "
+    IDS_DLG_PAN_ENTRY_TRANSLATION_INTERVAL "平移间隔 ："
+    IDS_DLG_PAN_ENTRY_CALIB_PIECE_PATTERN "校准件模式"
+    IDS_DLG_PAN_ENTRY_PANNING "平移"
+    IDS_CAMERA_SELECTION    "摄像机选择"
+    IDS_SELECT_CAMERA       "选择相机"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MSG_NO_DATA_FOUND   "未找到数据"
+    IDS_STATIC_PREFIX_SETTINGS "设置小数点位数"
+    IDS_DLG_UNIT_SETTINGS   "单位设置"
+    IDS_STATIC_LENGTH_UNIT  "长度单位"
+    IDS_STATIC_ANGLE_UNIT   "角度单位"
+    IDS_RAD_ANGLE_PREFIX_AS_LENGTH "长度单位相同"
+    IDS_MICRON              "微米"
+    IDS_MSG_FILE_ALREADY_OPEN "此文件已打开。它无法同时打开 2 个文件。关闭已打开的文件或重命名其中一个文件。"
+    IDS_TOLERANCE_EDIT_SETTINGS "公差- 更改默认值"
+    IDS_MSG_OVERSTEP_TOL    "由于公差超范围而暂停检查，并且检查开始时未选中相关复选框以克服它"
+    IDS_MSG_SHAPE_NOT_FOUND "检查暂停，因为未找到形状，相关复选框未检查，以克服检查开始时的检查"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MSG_SINGLE_STEP_INSPECTION "单步检查模式已"
+    IDS_DLGCOLORSET_STATIC_TRACKER_COLOR "跟踪器颜色"
+    IDS_DLGCOLORSET_STATIC_TRACKER__FEATURE_COLOR "跟踪器特征颜色"
+    IDS_DLG_CONSTRUCT_SOLUTION_SETTINGS "解决方案设置"
+    IDS_DLG_CONSTRUCT_LINE_SELECTION_SETTINGS "线条选择设置"
+    IDS_STATIC_DLGARRAY_INIT_STEP "开始步骤 ："
+    IDS_STATIC_DLGARRAY_TERMINATE_STEP "结束步骤："
+    IDS_RAD_DLGARRAY_RECT_ARRAY "矩形阵列"
+    IDS_RAD_DLGARRAY_CIRCULAR_ARRAY "环形阵列"
+    IDS_RAD_DLGARRAY_MIRROR "镜像"
+    IDS_RAD_DLGARRAY_TRANSLATION "平移"
+    IDS_RAD_DLGARRAY_Z_SHAPE "Z 形状"
+    IDS_RAD_DLGARRAY_S_SHAPE "S 形状"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATIC_DLGARRAY_ROW "行："
+    IDS_STATIC_DLGARRAY_COLUMN "列："
+    IDS_STATIC_DLGARRAY_ROW_EXCURSION "行偏移"
+    IDS_STATIC_DLGARRAY_COLUMN_EXCURSION "列偏移"
+    IDS_STATIC_DLGARRAY_BENCHMARK_COORDS "基准坐标 ："
+    IDS_STATIC_DLGARRAY_COMMON_ELEMENTS "公共元素："
+    IDS_STATIC_ARRAY        "阵 列"
+    IDS_STATIC_DLGARRAY_X_EXCURSION "X 游览"
+    IDS_STATIC_DLGARRAY_Y_EXCURSION "和游览"
+    IDS_STATIC_TOTAL_OBJECTS "对象总数"
+    IDS_RAD_DLGARRAY_LEVEL_MIRROR "水平镜"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RAD_DLGARRAY_VERTICAL_MIRROR "垂直镜"
+    IDS_FILLING_ANGLE       "灌装角度 ："
+    IDS_CHK_DLGARRAY_ROTATE_WHEN_COPY "复制时旋转对象"
+    IDS_ELEMENT_REFERENCE   "元素参考"
+    IDS_RECTANGLE_ARRAY_NOTE "默认情况下，如果行偏移为负值，则行添加在下面。如果列偏移为负值，则列添加在左边。"
+    IDS_CIRCULAR_ARRAY_NOTE "对于填充角度，正指定逆时针旋转，负表示顺时针旋转。"
+    IDS_MM                  "毫米"
+    IDS_INCH                "英寸"
+    IDS_MILES               "密尔"
+    IDS_OUTPT_FORMAT        "输出格式"
+    IDS_STATIC_SMALLER      "小"
+    IDS_STATIC_LARGER       "大"
+    IDS_STATIC_EXPORT_TO_EXCEL "导出到 Excel"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STAT_COLOR_OVERSTEP_UP_TOL "超过上公差颜色:"
+    IDS_STAT_COLOR_OVERSTEP_LOW_TOL "超过下公差颜色:"
+    IDS_STATIC_TEMPLATE_EXPORT_EXCEL "导出 Excel"
+    IDS_STATIC_DEGREES      "度"
+    IDS_RADIANS             "弧度"
+    IDS_MEASUREMENT_UNIT    "测量单元"
+    IDS_TRANSLATE_DISTANCE_X "平移距离 X"
+    IDS_TRANSLATE_DISTANCE_Y "平移距离  Y"
+    IDS_DLGINSPPARAMS_MODELPARAMS_REDUCTIONFACTOR2 "折减系数 2"
+    IDS_DLGINSPPARAMS_MEASPARAMS_MEASTHRESH "测量距离"
+    IDS_RESET_TO_DEFAULT    "重置为默认"
+    IDS_CORRECTION_MAP      "更正映射"
+    IDS_GENERATE            "生成"
+    IDS_APPLY_MAP           "应用地图"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENABLE_MAP          "启用地图"
+    IDS_360_SUPPLEMENTARY_ANGLE "360 辅助角度"
+    IDS_MEASURED_ELEMENT    "测量元素"
+    IDS_DATUM               "数据"
+    IDS_DATUM_ELEMENT       "数据元素"
+    IDS_EXTENDED_TOLERENCE  "扩展公差"
+    IDS_GEOTOL_PARALLEL     "平行"
+    IDS_GEOTOL_VERTICAL     "垂直"
+    IDS_GEOTOL_COAXIAL      "同轴的"
+    IDS_GEOMETRIC_TOLERANCES "几何公差"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REFERENCE_LENGTH    "参考长度："
+    IDS_REFERENCE_ANGLE     "参考角度"
+    IDS_DX                  "DX"
+    IDS_DY                  "DY"
+    IDS_DZ                  "DZ"
+    IDS_TOLERANCE_RULE      "容忍规则"
+    IDS_MAXIMUM_DEVIATION   "最大偏差"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MINIMUM_DEVIATION   "最小偏差"
+    IDS_ERROR_PARALLELISM   "此项目无法计算并行性"
+    IDS_ERROR_VERTICALITY   "垂直性不能在本项目中计算"
+    IDS_ERROR_ANGULARITY    "角不可在本项目中计算"
+    IDS_ERROR_POSITION      "此项目中无法计算位置"
+    IDS_ERROR_CONCENTRICITY "同心不能在本项目中计算"
+    IDS_ERROR_MEASURED_ELEMENT1 "已测量的元素1设置不正确。请重置！"
+    IDS_ERROR_MEASURED_ELEMENT2 "测量的元素2设置不正确。请重置！"
+    IDS_ERROR_DATUM_ELEMENT "数据元素设置不正确。请重置！"
+    IDS_ERROR_REFERENCE_LENGTH "参考长度必须大于零。重置！"
+    IDS_STATIC_THRES_VALUE_CALIB "阈值："
+    IDS_MSG_GRID_CORNERS    "检测到网格角！"
+    IDS_MSG_CALIBRTION_OVER_DIFFERENCE "X 和 Y 校准因子变化太大。需要再次进行校准！"
+    IDS_MSG_DXF_SIZE_LARGE  "Dxf 形状对象大小较大"
+    IDS_MSG_FILE_NOT_FOUND_RESELECT "找不到文件，请重新选择"
+    IDS_MSG_CANT_CALCULATE_SPC "样本太少 - 无法计算 SPC 参数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATIC_OKMEAS_SET_COLOR "OK 测量颜色"
+    IDS_THEORETICAL_ANGLE   "理论角度："
+    IDS_THEORETICAL_POSITION "理论位置"
+    IDS_BTN_IMPORT_DXF      "导入DXF"
+    IDS_BTN_WRITE_TO_PROGRAM "写入程序"
+    IDS_BTN_SAVE_IMAGE      "相似性"
+    IDS_STATIC_POSITIVE_TOLERANCE "正公差"
+    IDS_STATIC_NEGATIVE_TOLERANCE "负公差"
+    IDS_BTN_APPLY           "应用"
+    IDS_RAD_PROFILE_WITH_REFERANCE "有参考轮廓度"
+    IDS_RAD_NO_REFERANCE_PROFILE "无参考轮廓度"
+    IDS_STATIC_DRAWING_INTERVAL "绘图间隔："
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOADMAP             "载入地图"
+    IDS_CHECK_ALIGNMENT     "检查对齐"
+    IDS_GENERATE_APPLY_MAP  "生成并应用地图"
+    IDS_STATIC_START_OBJECT "开始对象 ："
+    IDS_STATIC_END_OBJECT   "结束对象 ："
+    IDS_BTN_AUTO_PROGRAM    "自动编程"
+    IDS_CHECK_POINT         "点"
+    IDS_CHECK_CONTOUR_POINTS "轮廓点"
+    IDS_CHECK_LASER_POINT   "激光点"
+    IDS_CHECK_LINE          "线"
+    IDS_CHECK_ROUND_KEYWAY  "圆形键槽"
+    IDS_CHECK_CIRCLE        "圆"
+    IDS_CHECK_ARC           "弧"
+    IDS_BTN_AUTO_COORDINATE_LABEL "自动坐标标注"
+    IDS_BTN_AUTO_POSITION   "自动定位"
+    IDS_TARGET_MAP          "目标地图"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_AUTOMATIC_PROGRAMMING "自动编程"
+    IDS_DRAWING_RANGE       "绘图范围"
+    IDS_CORRECTION          "校正"
+    IDS_TEMPLATE_MIN_AREA   "模板最小面积"
+    IDS_TEMPLATE_MAX_AREA   "模板最大面积"
+    IDS_REDUCTION_FACTOR1   "折减系数1"
+    IDS_REDUCTION_FACTOR2   "折减系数2"
+    IDS_RAD_PROGRAM_AUTO_DETERMINE "程序自动确定"
+    IDS_RAD_FIRST_EDGE      "第一边缘"
+    IDS_RAD_SECOND_EDGE     "第二边缘"
+    IDS_RAD_FORCED_DENOISING "强制去噪"
+    IDS_RAD_TURNING_TOOL_LINE "车削刀具线"
+    IDS_RAD_SCREW_THREAD    "螺纹"
+    IDS_RAD_ELLIPSE_ALGORITHM "椭圆算法"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REGARDLESS_OF_COLOR "不分颜色"
+    IDS_BLACK_TO_WHITE      "黑到白"
+    IDS_WHITE_TO_BLACK      "白色至黑色"
+    IDS_AUTO_LINE_SOLUTION_SETTINGS "自动生产线解决方案设置"
+    IDS_AUTO_CIRCLE_SOLUTION_SETTINGS "自动圆圈解决方案设置"
+    IDS_AUTO_ARC_SOLUTION_SETTINGS "自动弧解决方案设置"
+    IDS_AUTO_MULTISECTION_CIRCLE_SOLUTION_SETTINGS "自动多截面圆圈解决方案设置"
+    IDS_AUTO_RECTANGLE_SOLUTION_SETTINGS "自动矩形解决方案设置"
+    IDS_AUTO_FOCUS_PARAMSNG794 "自动对焦参数"
+    IDS_AF_MARKER           "标记"
+    IDS_AF_JOB              "工件"
+    IDS_AF_MARKER_HEIGHT    "标记高度"
+    IDS_AF_JOB_HEIGHT       "工件高度"
+    IDS_AF_START_X_POS      "开始 X 位置"
+    IDS_AF_START_Y_POS      "开始 Y 位置"
+    IDS_AF_START_Z_POS      "开始 Z 位置"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GB_AF_COARSE        "粗调"
+    IDS_ST_AF_COARSE_STEPS  "步数"
+    IDS_ST_AF_COARSE_DIFFERENCE "步长"
+    IDS_GB_AF_FINE          "细调"
+    IDS_ST_AF_FINE_STEPS    "步数"
+    IDS_ST_AF_FINE_DIFFERENCE "步长"
+    IIDS_BN_TEST            "测试"
+    IDS_STATIC_OK_LEVELA    "OK 等级 A："
+    IDS_STATIC_OK_LEVELB    "OK 等级 B："
+    IDS_STATIC_OK_LEVELC    "OK 等级 C："
+    IDS_STATIC_OK_LEVELD    "OK 等级 D："
+    IDS_STATIC_OK_LEVELE    "OK 等级 E ："
+    IDS_EDIT_SHAPENG        "编辑形状 NG"
+    IDS_DLG_USER_MANAGEMENT "用户管理"
+    IDS_ADMIN               "管理员"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_USER_OPERATOR       "算子"
+    IDS_USER_SUPERVISOR     "主管"
+    IDS_LIST_OF_USERS       "用户列表"
+    IDS_ADD_USER            "添加用户"
+    IDS_DELETE_USER         "删除用户"
+    IDS_LOGIN_ERROR         "错误！！！无法登录"
+    IDS_ADMIN_RIGHTS        "您需要管理员级别的权限才能查看或修改用户信息！"
+    IDS_USER_NAME_ALREADY_EXIST "创建失败!!!用户名已存在"
+    IDS_USER_NAME_MAX_CHAR  "创建失败!!!用户名超出最大字符数"
+    IDS_NEW_USER_CREATED    "新用户已创建。"
+    IDS_NAME_USER           "名字："
+    IDS_USER_LEVEL          "水平："
+    IDS_CHANGE_PASSWORD     "更改密码"
+    IDS_OLD_PASSWORD        "输入旧密码"
+    IDS_NEW_PASSWORD        "输入新密码"
+    IDS_CONFIRM_PASSWORD    "确认密码"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WRONG_USER_PASSWORD "用户名或密码错误！"
+    IDS_LOGIN_FAILED        "登录失败！"
+    IDS_USER_TRIED          "用户已尝试"
+    IDS_PASSWORD_CHANGED    "密码更改成功"
+    IDS_PREVIOUS_USED_PASSWORD "错误！！！密码在过去五次迭代之一中使用过"
+    IDS_IMAGE_SAVING_TEXT   "保存图像"
+    IDS_SAVED_IMAGE_TEXT    "图像保存成功！"
+    IDS_ERROR_SAVING_IMAGE  "将图像保存到文件!!!时出错"
+    IDS_TMPLT_CREATION_IN_PROCESS "创建模板"
+    IDS_POINT_INPUT         "点输入"
+    IDS_LINE_INPUT          "行输入"
+    IDS_ARC_CIRCLE_INPUT    "弧/圆输入"
+    IDS_DLG_INPUT_LINE_X    "X"
+    IDS_DLG_INPUT_LINE_Y    "Y"
+    IDS_INPUT_CALCULATE     "计算"
+    IDS_IMPORT              "导入"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DLG_INPUT_LINE_X1   "X1"
+    IDS_DLG_INPUT_LINE_X2   "X2"
+    IDS_DLG_INPUT_LINE_Y1   "Y1"
+    IDS_DLG_INPUT_LINE_Y2   "Y2"
+    IDS_INPUT_L             "输入（L）"
+    IDS_INPUT_P             "输入（P）"
+    IDS_INPUT_C             "输入（C）"
+    IDS_DLG_INPUT_MANUAL_LENGTH "长度"
+    IDS_DLG_INPUT_MANUAL_ANGLE "角度"
+    IDS_DLG_INPUT_ARC_R     "R"
+    IDS_DLG_INPUT_ARC_START_ANGLE "起始角度"
+    IDS_DLG_INPUT_ARC_END_ANGLE "结束角度"
+    IDS_INPUT_DLG_UNIT      "单位："
+    IDS_DLG_INPUT_MANUALLY  "手动输入"
+    IDS_LT_3D_NOTE          "请输入用户定义的名称！"
+    IDS_DLG_LT3D_CAPTION    "LT 3D"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_START_CALIB_PROCESS "启动校准过程"
+    IDS_ADMIN_RIGHTS_CALIB  "您需要管理员级别的权限才能进行校准！"
+    IDS_CALIB_CIRCLE_NEEDED "计算所需的 4 个圆圈"
+    IDS_INS_PARAMS_MODIFY_RIGHTS "您需要管理员级别的权限才能查看或修改检查参数！"
+    IDS_OPENING_INS_PARAMS_DLG "打开 Insp 参数 Dlg"
+    IDS_REDUCTION_PARAMS_NOTE "注意：面积单位为平方毫米 Sq. mm"
+    IDS_INPUT_COORDINATE    "打开对话框以允许手动输入点、线、圆和弧。"
+    IDS_INPUT_DLG_ANGLE     "角度："
+    IDS_TERMINATIVE_STEP    "终止步骤小于主动步骤"
+    IDS_REDUCTION_FACTORS_SETTINGS "折减系数设置"
+    IDS_RAD_FIT_LINE        "拟合线"
+    IDS_RAD_FIT_CIRCLE      "拟合圆"
+    IDS_RAD_FIT_ARC         "拟合弧"
+    IDS_RAD_MIN_CIRCUM_CIR  "最小限定圆"
+    IDS_FITTING_OPTIONS     "拟合选项："
+    IDS_MULTI_FIT_FUNC_INSTRUCT "使用现有点，适合新元素。支持拟合线，拟合圆，拟合弧线。"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VALIDATE_AXIS_POS   "验证轴位置： 不正确的轴名称："
+    IDS_ADD_COORD_BSHIFT    "您需要在移动坐标之前添加坐标！"
+    IDS_SOL_SETTINGS_CAPTION "解决方案设置"
+    IDS_CHK_DEFAULT_SOL     "设置为默认解决方案"
+    IDS_CALCULATE_DISTANCE  "计算距离"
+    IDS_TOLERANCE_SETTING   " 公差设置"
+    IDS_SINGLE_ITEM_NAME    "项目名称："
+    IDS_SINGLE_STD_VAL      " 标准值："
+    IDS_SINGLE_UPPER_TOL    "上公差："
+    IDS_SINGLE_LOWER_TOL    "下公差："
+    IDS_SELECT_POINT_TO_FIT "选择点并点击右键以拟合一个功能。"
+    IDS_HARDWARE_CORRECTION "启用硬件更正时出错。 在其位置上启用软件校正"
+    IDS_ENABLE_BAYER_DECODER "启用拜耳解码器时，始终使用硬件校正"
+    IDS_NO_TANGENT_AVAILABLE "两个圆没有切线！"
+    IDS_OUTOFF_BITMAP_MEMORY "无法分配位图内存"
+    IDS_NO_BITMAP_FILE      "无法创建位图文件"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ACTUAL_COORDINATES_NOT_FOUND "在测试图像中查找检测到的形状的实际坐标时出现异常"
+    IDS_EXCEPTION_EXCEL_DATA "Excel 数据提取中的异常"
+    IDS_ENSURE_MASTER_IMAGE_LOADED 
+                            "您已选择校准相机。确保加载/抓取了正确的校准主映像。这需要很长时间 - 最多8小时。是否要继续？"
+    IDS_STOP_MOTION         "定格动画：系统处于焦点"
+    IDS_NOT_PARALLEL        "线条彼此不平行"
+    IDS_TRACKER_POINT_NOT_SET "无法正确设置外部跟踪器点。请从菜单中重置跟踪器"
+    IDS_NO_DATA_SELECTED    "未选择要为报告获取的数据"
+    IDS_MAP_GENERATION      "生成地图："
+    IDS_MAP_SAVING          "保存地图："
+    IDS_HORIZONTAL_PIXEL_DIST "水平像素分布："
+    IDS_VERTICAL_PIXEL_DIST "垂直像素分布："
+    IDS_ACTUAL_CEN_HORIZ    "实际水平中心距："
+    IDS_ACTUAL_CEN_VERT     "实际垂直中心距："
+    IDS_MAPFULL_GENERATION  "生成地图完整："
+    IDS_MAPFULL_SAVING      "保存地图完整："
+    IDS_MAP_LOADED          " 地图已加载："
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAP_FROM_FILE       "从文件加载映射："
+    IDS_FILE_NOT_FOUND      "未找到地图文件"
+    IDS_DELETE_CLINE        "您需要删除构造的行："
+    IDS_DELETE_CPOINT       "您需要删除构造的点："
+    IDS_SELECT_CIRCLE_LINE  "选择相同类型的形状"
+    IDS_ST_ZAXIS_ZERO_POSITION "Z 轴零点位置"
+    IDS_DLG_CAM_SERIALCOMSETTINGS "相机串行通信设置"
+    IDS_COMPORT             "通讯端口："
+    IDS_BAUDRATE            "波特率："
+    IDS_DLG_PROGRESSBAR     "进展"
+    IDS_ST_PROGRESS_OUT     "静态的"
+    IDS_STATIC_OVERLAP_Y    "重叠图像 Y"
+    IDS_STATIC_STITCHING_PART_Y "缝合部分 Y"
+    IDS_STATIC_FINETUNE_STITCH_Y " 微调拼接 Y"
+    IDS_CHK_IS_STITCHING_REQUIRED "是否需要缝合"
+    IDS_CAMERA_CAMERACOMPORTSETTINGS "相机通信端口设置"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADOBE_NOT_FOUND     "未找到合适的 Adobe Reader"
+    IDS_INSTALL_ADOBE       "請安裝 Adobe Reader 10.0"
+    IDS_TIME_SECONDS        "秒"
+    IDS_DEVELOPER_MODE_ON   "开发人员模式已打开，是否要将其关闭？"
+    IDS_STATIC_STITCHING_PART_X "微调拼接 X"
+    IDS_ST_MARKER_THICKNESS "标记厚度"
+    IDS_BTN_SET_REDUCTION_FACTORS "系数设置"
+    IDS_DXF_COORD_COIN      "DXF 坐标匹配"
+    IDS_DXF_OPTIONS         "DXF 选项"
+    IDS_PARAMETER_NOT_IN_RANGE_X "参数不在范围内 !!! 请检查作业宽度或起始位置（X轴）!!!"
+    IDS_PARAMETER_NOT_IN_RANGE_Y "参数不在范围内 !!! 请检查作业宽度或起始位置（Y轴) !!!"
+    IDS_PARAMETER_NOT_IN_RANGE_Z "参数不在范围内 !!! 请检查作业宽度或起始位置（Z轴) !!!"
+    IDS_SELECT_LINE_OR_ANGLE "请选择用于角度测量的线"
+    IDS_MOVE                "移动"
+    IDS_SPECIAL_CHARACTERS_STRING "文件名不能包含以下任何字符："
+    IDS_APP_RUNNING_CHINESE "应用程序已在运行。无法再次开始！"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAMEXPERT_RUNNING_CHINESE "CamExpert正在运行。请在运行此应用程序之前关闭CamExpert。"
+    IDS_SAPERAMONITOR_RUNNING_CHINESE 
+                            "SaperaMonitor 正在运行。请在运行此应用程序之前关闭 SaperaMonitor。"
+    IDS_STATIC_LINEAR_COMPENSATION "线性补偿"
+    IDS_NONLINEAR_COMPENSATION_SETTINGS "非线性补偿设置"
+    IDS_COMPENSATION        "补偿"
+    IDS_NONLINEAR_COMPENSATION "非线性补偿"
+    IDS_IS_GLASS_USED       "是否使用玻璃盖板"
+    IDS_CORRUPT_DATA_1      "数据已损坏，我们正在删除所有数据！"
+    IDS_CORRUPT_DATA_2      "您需要从头开始创建模板。"
+    IDS_ORIGINAL_IMAGE      "原始图像"
+    IDS_CROPPED_IMAGE       "裁剪图像"
+    IDS_SAVE_IMAGE_MSG      "是否要保存原始图像或裁剪图像？"
+    IDS_IMAGE_1             "图片1"
+    IDS_IMAGE_2             "图片2"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATIC_BOTTOM_UPPER_LIMIT "底灯上限"
+    IDS_STATIC_BOTTOM_LOWER_LIMIT "底灯下限"
+    IDS_STATIC_TOP_UPPER_LIMIT "顶光上限"
+    IDS_STATIC_TOP_LOWER_LIMIT "顶灯下限"
+    IDS_SETTINGS_LIGHTBRIGHTNESSLIMITSETTINGS "灯光亮度限制设置"
+    IDS_STATIC_ASK_IMAGE_NO "哪个映像需要更新？"
+    IDS_DLG_UPDATE_IMAGE    "更新映像"
+    IDS_TEMPLATE_DATA_NOT_FOUND_MSG1 "未找到模板数据"
+    IDS_TEMPLATE_DATA_NOT_FOUND_MSG2 "请先添加模板数据！"
+    IDS_SHAPE_MEAS_DATA_NOT_FOUND_MSG1 "未找到形状/测量数据"
+    IDS_SHAPE_MEAS_DATA_NOT_FOUND_MSG2 "请先添加形状/测量数据！"
+    IDS_BEST_FOCUS_IMG      "最佳对焦图像："
+    IDS_BOTH_IMAGES_AVAILABLE "两张图片都可用！！"
+    IDS_NO_OPTION_SELECTED  "未选择任何选项来覆盖图像！！"
+    IDS_NEED_TO_CHANGE_MODEL "需要再次教模型！！"
+    IDS_X_AXIS_MOVE_SPEED_MSG "X 轴移动速度应小于"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_X_AXIS_GRAB_SPEED_MSG "X轴抓取速度应小于"
+    IDS_X_AXIS_HOME_SPEED_MSG "X 轴返航速度应小于"
+    IDS_X_AXIS_JOG_SPEED_MSG "X 轴点动速度应小于"
+    IDS_Y_AXIS_MOVE_SPEED_MSG "Y 轴移动速度应小于"
+    IDS_Y_AXIS_GRAB_SPEED_MSG "Y轴抓取速度应小于"
+    IDS_Y_AXIS_HOME_SPEED_MSG "Y 轴返航速度应小于"
+    IDS_Y_AXIS_JOG_SPEED_MSG "Y 轴点动速度应小于"
+    IDS_Z_AXIS_MOVE_SPEED_MSG "Z 轴移动速度应小于"
+    IDS_Z_AXIS_GRAB_SPEED_MSG "Z轴抓取速度应小于"
+    IDS_Z_AXIS_HOME_SPEED_MSG "Z 轴返航速度应小于"
+    IDS_Z_AXIS_JOG_SPEED_MSG "Z 轴点动速度应小于"
+    IDS_U_AXIS_MOVE_SPEED_MSG "U 轴移动速度应小于"
+    IDS_U_AXIS_HOME_SPEED_MSG "U 轴返航速度应小于"
+    IDS_U_AXIS_JOG_SPEED_MSG "U 轴点动速度应小于"
+    IDS_GRAB_SPEED_MSG      "抓取速度应小于"
+    IDS_LICENSE_FILE_MSG    "无法打开许可证文件。"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DECRYPT_MSG         "无法解密数据 - 检查密码。"
+    IDS_MODEL_NOT_SAVED_MSG "模型未保存。错误："
+    IDS_ERR_FULL_MAP        "应用全图时出错！"
+    IDS_HOMING_NEEDED       "需要归位吗？"
+    IDS_STATIC_IMG_CROPPING_HEIGHT "图像裁剪高度"
+    IDS_ENABLE_GRAB_IMAGE_BUTTON "启用“抓取图像”按钮"
+    IDS_RESET_ENABLE_GRAB_BUTTON_MSG "您要重置抓取图像按钮吗？"
+    IDS_MSG_SAVING_JOB      "正在保存作业..."
+    IDS_MSG_SAVED_JOB       "作业已成功保存！！"
+    IDS_MSG_LOADING_JOB     "正在加载作业..."
+    IDS_MSG_LOADED_JOB      "作业加载成功！！"
+    IDS_MSG_LOADING_JOB_FAIL "作业加载失败！！"
+    IDS_ERR_READING_GENERAL_DATA "读取常规数据时出错。"
+    IDS_ERR_READING_IMG_DATA "读取图像数据信息时出错。"
+    IDS_ERR_READING_COORDINATE_INFO "读取坐标信息时出错。"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_READING_SHAPES_INFO "读取形状信息时出错。"
+    IDS_ERR_READING_MEAS_INFO "读取测量信息时出错。"
+    IDS_ERR_READING_TEXTLABELS_INFO "读取文本标签信息时出错。"
+    IDS_ERR_READING_TEMPLATE_EXCEL_INFO "读取模板Excel信息时出错。"
+    IDS_ERR_READING_CONFIG_FILE "读取配置文件数据时出错。"
+    IDS_ERR_READING_HALCON_MODEL "读取 Halcon 模型时出错。"
+    IDS_MSG_SAVING_JOB_FAILED "作业保存失败！！"
+    IDS_MSG_IMAGE_NOT_LOADED "图像未加载！！"
+    IDS_MSG_LOADING_MASTER_IMAGE "正在加载主映像.."
+    IDS_MSG_LOADED_MASTER_IMAGE "主映像加载成功！！"
+    IDS_ERR_IMAGE2_NOT_SAVING "图像 2 不会被保存！以后无法在 image2 上设置或编辑形状。"
+    IDS_WARNING_CHINESE_CHARACTERS "字符串包含中文字符。请替换为英文的。"
+    IDS_WARNING_CHARACTER_RESTRICTION "文件名只能包含以下字符："
+    IDS_LOCK_OBJECT_COORDINATES "锁定对象坐标"
+    IDS_UNLOCK_OBJECT_COORDINATES "解锁对象坐标"
+    IDS_SPECIFY_REFERENCE_COORDINATES "请注明参考坐标："
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REFERENCE           "参考："
+    IDS_DLG_Y_COMPENSATION  "Y 补偿设置"
+    IDS_CHK_ENABLE_Y_COMPENSATION "使能 Y 补偿"
+    IDS_LINE_TO_LINE_COMPENSATION "外部"
+    IDS_LINE_TO_OTHER_COMPENSATION "内部"
+    IDS_FORMULA             "公式"
+    IDS_HEADER_SETTING_FORMAT_2 "标头设置格式-2"
+    IDS_ENABLE_HEADER_FORMAT "启用标头格式"
+    IDS_ADD_TO_GRID         "添加到网格"
+    IDS_CLEAR_ALL_GRID      "清除所有网格"
+    IDS_MN_LOADCFGFILE      "加载 CFG 文件"
+    IDS_READ_DIMS           "读取维度"
+    IDS_SHOW_SHAPE_LABELS   "读取形状标签"
+    IDS_MIN_CIRCLE_DIA      "最小圆直径"
+    IDS_XY_OFFSETS          "XY 偏移"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OFFSET_X            "X 偏移"
+    IDS_OFFSET_Y            "Y 偏移"
+    IDS_SELECT_SHAPES_W_DIMS "选择具有维度的形状"
+    IDS_BTM_LIGHT           "底光"
+    IDS_TOP_LIGHT           "上光"
+    IDS_MIN_LINE_LENGTH1    "最小线长"
+    IDS_MIN_LINE_LENGTH     "最小线长"
+    IDS_DEFAULT_COORDINATE  "默认坐标"
+    IDS_LINE_CIRCLE_INT_OPTIONS "直线到圆点选项"
+    IDS_LINE_CIRCLE_INT     "线圆交集"
+    IDS_PERP_CIRCLE_TO_LINE "从直线到圆的垂直度"
+    IDS_CLOSEST_PT_LINE_CIRCLE "圆上最接近线的点"
+    IDS_OPTIONS             "选项"
+    IDS_MSG_CONSTRUCT_PT_2_CIRCLES_CONDITION "其中一个圆圈必须完全位于另一个圆圈内"
+    IDS_RING_THK            "两圆求壁厚，其中一个圆必须完全在另一个圆内。"
+    IDS_RECT_SELECT         "使用矩形框选需要编程的形状"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHOW_CROSSHAIR      "显示 十字准线"
+    IDS_HIDE_CROSSHAIR      "隐藏十字线"
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
