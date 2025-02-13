@@ -1357,6 +1357,11 @@
 #define IDS_HIDE_CROSSHAIR              1409
 #define IDS_HIDE_DUMMY1                 1410
 #define IDS_DUMMY1                      1410
+#define IDS_PARALLEL_LINE               1411
+#define IDS_STATIC_PARALLEL_LINE        1412
+#define IDS_ROTATE_LINE                 1413
+#define IDS_CHK_SPECIFIED_LENGTH        1414
+#define IDS_CHK_MOVE_TO_CENTER_OF_ROTATION 1415
 
 // Next default values for new objects
 // 

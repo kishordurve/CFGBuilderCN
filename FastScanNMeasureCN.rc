@@ -937,7 +937,7 @@ BEGIN
     IDS_COORD_TRANS         "坐标翻译"
     IDS_COORD_TRANS_ROTATE  "坐标转换-旋转"
     IDS_DELETEALLCONFIRMMSG "删除所有将删除所有测量值，这不会被撤回。是否要继续？"
-    IDS_DELETEPRGSTEPWARNING "无法检索删除程序步骤。是否要继续？"
+    IDS_DELETEPRGSTEPWARNING "删除之后无法恢复，是否继续删除？"
     IDS_GRIDMEASRESULTTITLECOL1 "测量 - 结果"
     IDS_CHCK_PAN_ENTITY_INTERVAL "在检测补偿点之前设置平移实体设置"
     IDS_JOB_THICKNESS       "工件厚度"
@@ -1630,6 +1630,11 @@ BEGIN
     IDS_SHOW_CROSSHAIR      "显示 十字准线"
     IDS_HIDE_CROSSHAIR      "隐藏十字线"
     IDS_DUMMY1              "Dummy1"
+    IDS_PARALLEL_LINE       "平行线"
+    IDS_STATIC_PARALLEL_LINE "请设置两条平行线之间的距离：mm"
+    IDS_ROTATE_LINE         "旋转线"
+    IDS_CHK_SPECIFIED_LENGTH "指定长度"
+    IDS_CHK_MOVE_TO_CENTER_OF_ROTATION "移动到线中心"
 END
 
 #endif    // Chinese (Simplified, PRC) resources
