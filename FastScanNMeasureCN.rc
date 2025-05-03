@@ -1620,7 +1620,7 @@ BEGIN
     IDS_PERP_CIRCLE_TO_LINE "从直线到圆的垂直度"
     IDS_CLOSEST_PT_LINE_CIRCLE "圆上最接近线的点"
     IDS_OPTIONS             "选项"
-    IDS_MSG_CONSTRUCT_PT_2_CIRCLES_CONDITION "其中一个圆圈必须完全位于另一个圆圈内"
+    IDS_MSG_CONSTRUCT_PT_2_CIRCLES_CONDITION "其中一个圆或者弧必须在另一个内。"
     IDS_RING_THK            "两圆求壁厚，其中一个圆必须完全在另一个圆内。"
     IDS_RECT_SELECT         "使用矩形框选需要编程的形状"
 END
@@ -1635,6 +1635,10 @@ BEGIN
     IDS_ROTATE_LINE         "旋转线"
     IDS_CHK_SPECIFIED_LENGTH "指定长度"
     IDS_CHK_MOVE_TO_CENTER_OF_ROTATION "移动到线中心"
+    IDS_MAX_LINE_LEN_TO_POLY "更改为多段线的最大线长度"
+    IDS_ENABLE_TOP_LIGHT    "使上光"
+    IDS_MN_LANG_TRADITIONALCHINESE "繁体中文"
+    IDS_IMPROPER_SEL_METHOD "点的特征选择方法不正确"
 END
 
 #endif    // Chinese (Simplified, PRC) resources

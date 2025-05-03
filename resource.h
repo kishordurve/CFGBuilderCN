@@ -813,6 +813,7 @@
 #define IDS_DISABLEPREVJOBLOAD          827
 #define IDS_AUTO_FIND_SEC               828
 #define IDS_DXF_PARAMS                  829
+#define IDS_STRING830                   830
 #define IDS_NO_DATA_AVAILABLE           837
 #define IDS_NO_SUFF_DATA_AVAILABLE      838
 #define IDS_INVALID_VALUES_NO_GRAPH     839
@@ -1362,6 +1363,10 @@
 #define IDS_ROTATE_LINE                 1413
 #define IDS_CHK_SPECIFIED_LENGTH        1414
 #define IDS_CHK_MOVE_TO_CENTER_OF_ROTATION 1415
+#define IDS_MAX_LINE_LEN_TO_POLY        1416
+#define IDS_ENABLE_TOP_LIGHT            1421
+#define IDS_MN_LANG_TRADITIONALCHINESE  1422
+#define IDS_IMPROPER_SEL_METHOD         1423
 
 // Next default values for new objects
 // 
